@@ -1,0 +1,56 @@
+# #######################################################################################################################
+#     ___       __       ___  __
+#    / _ |__ __/ /____  / _ \/ /_ _____ _
+#   / __ / // / __/ _ \/ ___/ / // / _ `/
+#  /_/ |_\_,_/\__/\___/_/  /_/\_,_/\_, /
+#                                 /___/ Restarter-Config
+# Thank you for using AutoPlug!
+# You can find detailed installation instructions here: https://autoplug.one/installer
+# If there are any questions or you just want chat, join our Discord: https://discord.gg/GGNmtCC
+# 
+# #######################################################################################################################
+restarter: 
+
+  daily-restarter: 
+
+  custom-restarter: 
+    # Enable/Disable the custom scheduler for restarting your minecraft server.
+    # Make sure to have the other scheduler disabled.
+    # This scheduler uses a quartz-cron-expression (https://wikipedia.org/wiki/Cron) to execute the restart.
+    enable: false
+    # This example will restart your server daily at 9:30 (0 30 9 * * ? *).
+    # Use this tool to setup your cron expression: https://www.freeformatter.com/cron-expression-generator-quartz.html
+    cron: 0 30 9 * * ? *
+    commands: 
+      list: 
+        10: 
+          - say Restarting in 10 seconds.
+          - say Please allow up to 2min for this process to complete.
+        3: say Restarting in 3.
+        2: say Restarting in 2.
+        1: say Restarting in 1.
+        0: say Restarting...
+  daily-restarter: 
+    # Enable/Disable the scheduler for restarting your minecraft server on a daily basis.
+    # Make sure to have the other scheduler disabled.
+    enable: true
+    # Restarts your server daily at the times below.
+    # You can add max 10x times to restart (hours must be within 0-23 and minutes within 0-59).
+    # Multiple times can be added like this:
+    # times:
+    #   - 04:00
+    #   - 12:00
+    #   - and so on...
+    times: 05:00
+    commands: 
+      # Executes these commands as console, before restarting the server.
+      # You can execute multiple/single commands at any given second of the countdown.
+      # The countdown starts at the highest given number.
+      list: 
+        10: 
+          - say Restarting in 10 seconds.
+          - say Please allow up to 2min for this process to complete.
+        3: say Restarting in 3.
+        2: say Restarting in 2.
+        1: say Restarting in 1.
+        0: say Restarting...

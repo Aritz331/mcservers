@@ -1,0 +1,39 @@
+# #######################################################################################################################
+#     ___       __       ___  __
+#    / _ |__ __/ /____  / _ \/ /_ _____ _
+#   / __ / // / __/ _ \/ ___/ / // / _ `/
+#  /_/ |_\_,_/\__/\___/_/  /_/\_,_/\_, /
+#                                 /___/ Logger-Config
+# Thank you for using AutoPlug!
+# You can find detailed installation instructions here: https://autoplug.one/installer
+# If there are any questions or you just want chat, join our Discord: https://discord.gg/GGNmtCC
+# 
+# #######################################################################################################################
+logger: 
+  # Writes the debug output to console.
+  # The log file contains the debug output by default and this option wont affect that.
+  # This is the only setting that needs a restart to work.
+  debug: false
+  autoplug-label: AP
+  # Forces the terminal to use ANSI. Note that this may fail.
+  force-ANSI: false
+  # Checks the received line from the server process for specific words like 'warn' or 'exception' etc. and colors it accordingly.
+  color-server-log: true
+
+  tasks: 
+
+    # If the tasks produced warnings, these get shown.
+    # Its recommended to keep this option enabled.
+    show-warnings: true
+    # Shows additional, debugging information related to the warning.
+    # If the warning is an exception, its stack trace gets printed.
+    # The same information is available in the log file.
+    # Note that the 'show-warnings' option above must be enabled too.
+    show-detailed-warnings: false
+    live-tasks: 
+      # Enable this to view the detailed progress of a task. Supported platforms: Windows, Linux, OS X, Solaris and FreeBSD.
+      # Enabling this on unsupported platform will result in console spam.
+      enable: false
+      # Refresh interval in milliseconds.
+      # How often a task should get refreshed and update its information. Default is: 500ms
+      refresh-interval: 500

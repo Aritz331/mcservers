@@ -1,0 +1,8 @@
+[08-09-2022 15:40:21][AP][WARN] ================================
+[08-09-2022 15:40:21][AP][WARN] Message: null
+[08-09-2022 15:40:21][AP][WARN] Details: [CON_TYPE: 0] Authentication failed (code:1): No matching server key found! Register your server at https://autoplug.one/, get your server-key and add it to the /autoplug/general.yml config file. Enter '.con reload' to retry.
+[08-09-2022 15:40:21][AP][WARN] Type: java.lang.Exception
+[08-09-2022 15:40:21][AP][WARN] Stacktrace: 
+[08-09-2022 15:40:21][AP][WARN] com.osiris.autoplug.client.network.online.SecuredConnection.<init>(SecuredConnection.java:90)
+[08-09-2022 15:40:21][AP][WARN] com.osiris.autoplug.client.network.online.ConMain.run(ConMain.java:44)
+[08-09-2022 15:40:21][AP][WARN] ================================

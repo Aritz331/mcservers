@@ -1,0 +1,19 @@
+# #######################################################################################################################
+#     ___       __       ___  __
+#    / _ |__ __/ /____  / _ \/ /_ _____ _
+#   / __ / // / __/ _ \/ ___/ / // / _ `/
+#  /_/ |_\_,_/\__/\___/_/  /_/\_,_/\_, /
+#                                 /___/ System-Config
+# DO NOT CHANGE ANYTHING IN HERE, UNLESS YOU KNOW WHAT YOU ARE DOING!
+# 
+# #######################################################################################################################
+config: 
+  is-autostart-registered: false
+  timestamp-last-updater-tasks: 08/09/2022 15:40:26
+  timestamp-last-backup-task: 08/09/2022 15:40:22
+  # If localhost is used below, remember to set this to false too!
+  autoplug-web-ssl: true
+  # Set to localhost to test on the local server.
+  autoplug-web-ip: 144.91.78.158
+  autoplug-web-port: 35555
+  autoplug-plugin-key: oEIp2Z0GcCssc3oEGndYuSo3chIW3eJHVuX89vbcQrkOCFoKaqQ6CXIbmIy2hG4akP7nKNdVcWEGpdtQaoyhGqQk5M9ecxebDbWhAFfBKEXecRuF3BKNglvOU2Aioa0N1RdVzsuKXgbBSJ4MWkqtFbr9GlSLWNOEc6061u63SxN716pLdpACoA8G0OmrTAGeVB3mmS0eDcpZEGprcDG0Y44s1Xn567mpOeB9Vsg1nqx0YaRx7HBqOp0to88kidTZs4brZbzqneBGL75ugjJcrQHYDePSjH4PLA3ngxRmsietA0HCtBb48MC9uz7TEKAYp8pmritkz7MxzxHlQBvmrHc5R3LOhg4cPIldZGkuHa4fhhJWzevlhgbRDEq9GFCF8VBMiqkY2xszVqHchmeO9KbZ51YM5JkTydTA6tgkiG77IWvHpaq2BEC4krKh7Ss3SonTWDIqqvuUyOc1TK4RVBJI52fLtCojpjkW6BempFa4XI9q9Wb1

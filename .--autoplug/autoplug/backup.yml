@@ -1,0 +1,57 @@
+
+# #######################################################################################################################
+#     ___       __       ___  __
+#    / _ |__ __/ /____  / _ \/ /_ _____ _
+#   / __ / // / __/ _ \/ ___/ / // / _ `/
+#  /_/ |_\_,_/\__/\___/_/  /_/\_,_/\_, /
+#                                 /___/ Backup-Config
+# Thank you for using AutoPlug!
+# You can find detailed installation instructions here: https://autoplug.one/installer
+# If there are any questions or you just want chat, join our Discord: https://discord.gg/GGNmtCC
+# 
+# #######################################################################################################################
+backup: 
+  enable: true
+  # Set max-days to 0 if you want to keep your backups forever.
+  max-days: 7
+  # The cool-down for this task in minutes.
+  # If you restart your server multiple times in a short amount of time,
+  # you probably won't want to create backups each time you restart your server.
+  # The cool-down prevents exactly that from happening and saves you storage space and time.
+  # Set to 0 to disable.
+  cool-down: 500
+  include: 
+    # Add specific files or folders you want to include in the backup, to the list below.
+    # Windows/Linux formats are supported. './' stands for the servers root directory.
+    enable: true
+    list: 
+      - ./
+      - ./example/directory
+      - ./specific-file.txt
+      - C:\Users\Example Windows Directory
+  exclude: 
+    # Add specific files or folders you want to exclude from the backup, to the list below.
+    # Windows/Linux formats are supported. './' stands for the servers root directory.
+    enable: true
+    list: 
+      - ./autoplug/backups
+      - ./autoplug/downloads
+      - ./autoplug/system
+      - ./autoplug/logs
+      - ./plugins/dynmap
+      - ./plugins/WorldBorder
+  upload: 
+    # Upload the newly generated backup zip to the FTPS/SFTP server.
+    enable: false
+    # Deletes the newly generated backup zip, directly after uploading finishes.
+    delete-on-complete: false
+    # Hostname of the FTPS/SFTP server.
+    host: 
+    # Port of the FTPS/SFTP server.
+    port: 
+    username: 
+    password: 
+    # Set the folder, in which the backup should be stored.
+    path: 
+    # Leave this field blank when using FTPS.
+    rsa-key: 

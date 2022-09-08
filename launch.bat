@@ -1,4 +1,5 @@
 @echo off
+if [%1]==[] (cd .--autoplug & start.cmd & exit)
 title %1
 for /f %%i in ('dir /b ".--plugins"') do move ".--plugins\%%i" "%2\plugins"
 for /f %%i in ('dir /b ".--mods"') do move ".--mods\%%i" "%2\mods"
