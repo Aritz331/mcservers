@@ -17,3 +17,22 @@
 [08-09-2022 15:40:20][AP][WARN] org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:446)
 [08-09-2022 15:40:20][AP][WARN] com.osiris.autoplug.client.console.ThreadUserInput.run(ThreadUserInput.java:41)
 [08-09-2022 15:40:20][AP][WARN] ================================
+[08-09-2022 15:41:50][AP][WARN] ================================
+[08-09-2022 15:41:50][AP][WARN] Message: null
+[08-09-2022 15:41:50][AP][WARN] Details: [6] Controlador no válido.
+[08-09-2022 15:41:50][AP][WARN] Type: com.sun.jna.LastErrorException
+[08-09-2022 15:41:50][AP][WARN] Stacktrace: 
+[08-09-2022 15:41:50][AP][WARN] com.sun.jna.Native.invokeVoid(Native Method)
+[08-09-2022 15:41:50][AP][WARN] com.sun.jna.Function.invoke(Function.java:415)
+[08-09-2022 15:41:50][AP][WARN] com.sun.jna.Function.invoke(Function.java:361)
+[08-09-2022 15:41:50][AP][WARN] com.sun.jna.Library$Handler.invoke(Library.java:265)
+[08-09-2022 15:41:50][AP][WARN] org.jline.terminal.impl.jna.win.$Proxy0.SetConsoleMode(Unknown Source)
+[08-09-2022 15:41:50][AP][WARN] org.jline.terminal.impl.jna.win.JnaWinSysTerminal.setConsoleMode(JnaWinSysTerminal.java:114)
+[08-09-2022 15:41:50][AP][WARN] org.jline.terminal.impl.AbstractWindowsTerminal.updateConsoleMode(AbstractWindowsTerminal.java:205)
+[08-09-2022 15:41:50][AP][WARN] org.jline.terminal.impl.AbstractWindowsTerminal.trackMouse(AbstractWindowsTerminal.java:515)
+[08-09-2022 15:41:50][AP][WARN] org.jline.reader.impl.LineReaderImpl.doCleanup(LineReaderImpl.java:2540)
+[08-09-2022 15:41:50][AP][WARN] org.jline.reader.impl.LineReaderImpl.cleanup(LineReaderImpl.java:2526)
+[08-09-2022 15:41:50][AP][WARN] org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:727)
+[08-09-2022 15:41:50][AP][WARN] org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:446)
+[08-09-2022 15:41:50][AP][WARN] com.osiris.autoplug.client.console.ThreadUserInput.run(ThreadUserInput.java:41)
+[08-09-2022 15:41:50][AP][WARN] ================================
