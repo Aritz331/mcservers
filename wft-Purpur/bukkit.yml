@@ -1,0 +1,48 @@
+# This is the main configuration file for Bukkit.
+# As you can see, there's actually not that much to configure without any plugins.
+# For a reference for any variable inside this file, check out the Bukkit Wiki at
+# https://www.spigotmc.org/go/bukkit-yml
+#
+# If you need help on this file, feel free to join us on irc or leave a message
+# on the forums asking for advice.
+#
+# IRC: #spigot @ irc.spi.gt
+#    (If this means nothing to you, just go to https://www.spigotmc.org/go/irc )
+# Forums: https://www.spigotmc.org/
+# Bug tracker: https://www.spigotmc.org/go/bugs
+
+
+settings:
+  use-map-color-cache: true
+  allow-end: false
+  warn-on-overload: true
+  permissions-file: permissions.yml
+  update-folder: update
+  plugin-profiling: false
+  connection-throttle: 4000
+  query-plugins: true
+  deprecated-verbose: default
+  shutdown-message: §x§f§f§0§0§0§0T§x§f§f§0§c§0§0h§x§f§f§1§7§0§0e §x§f§f§2§3§0§0s§x§f§f§2§e§0§0e§x§f§f§3§a§0§0r§x§f§f§4§5§0§0v§x§f§f§5§1§0§0e§x§f§f§5§c§0§0r
+    §x§f§f§6§8§0§0h§x§f§f§7§3§0§0a§x§f§f§7§f§0§0s §x§f§f§8§b§0§0b§x§f§f§9§6§0§0e§x§f§f§a§2§0§0e§x§f§f§a§e§0§0n
+    §x§f§f§b§9§0§0s§x§f§f§c§5§0§0t§x§f§f§d§0§0§0o§x§f§f§d§c§0§0p§x§f§f§e§8§0§0p§x§f§f§f§3§0§0e§x§f§f§f§f§0§0d
+  minimum-api: none
+spawn-limits:
+  axolotls: 5
+  monsters: 70
+  animals: 10
+  water-animals: 5
+  water-ambient: 20
+  water-underground-creature: 5
+  ambient: 15
+chunk-gc:
+  period-in-ticks: 600
+ticks-per:
+  axolotl-spawns: 1
+  animal-spawns: 400
+  monster-spawns: 1
+  water-spawns: 1
+  water-ambient-spawns: 1
+  water-underground-creature-spawns: 1
+  ambient-spawns: 1
+  autosave: 6000
+aliases: now-in-commands.yml

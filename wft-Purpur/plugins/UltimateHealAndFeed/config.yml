@@ -1,0 +1,35 @@
+#Change the prefix here!
+Prefix: '&d[&5Ultimate&d] '
+
+#Permission message
+Nopermissionmessage: '&cYou don''t have permission to execute this command!'
+
+#Feed permissions
+Feedperm: ulti.feed
+Feedpermothers: ulti.feed.others
+Feedcooldownbypassperm: ulti.feed.bypass
+
+#Heal permissions
+Healperm: ulti.heal
+Healpermothers: ulti.heal.others
+Healcooldownbypassperm: ulti.heal.bypass
+
+#Other messages
+Mustbeaplayer: '&cYou must be a player to execute this command!'
+unknownplayer: '&c%target% is not online!'
+
+#Feed
+Feed: '&cYou have been fed'
+Feedother: '&cYou have fed %target%'
+Fedby: '&cYou have been fed by %player%'
+Usagefeed: '&cUsage: /feed <player>'
+Feedcooldownmsg: '&cYou can use this command in %timeleft% seconds!'
+Feedcooldowntime: 30
+
+#Heal
+Heal: '&cYou have been healed!'
+Healother: '&cYou have healed %target%!'
+Healby: '&cYou have been healed by %player%'
+Usageheal: '&cUsage: /heal <player>'
+Healcooldownmsg: '&cYou can use this command in %timeleft% seconds!'
+Healcooldowntime: 30

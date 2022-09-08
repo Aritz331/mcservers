@@ -1,0 +1,150 @@
+# This is the global configuration file for Paper.
+# As you can see, there's a lot to configure. Some options may impact gameplay, so use
+# with caution, and make sure you know what each option does before configuring.
+# 
+# If you need help with the configuration or have any questions related to Paper,
+# join us in our Discord or check the docs page.
+# 
+# The world configuration options have been moved inside
+# their respective world folder. The files are named paper-world.yml
+# 
+# Docs: https://docs.papermc.io/
+# Discord: https://discord.gg/papermc
+# Website: https://papermc.io/
+
+_version: 28
+async-chunks:
+  threads: -1
+chunk-loading:
+  autoconfig-send-distance: true
+  enable-frustum-priority: false
+  global-max-chunk-load-rate: -1.0
+  global-max-chunk-send-rate: -1.0
+  global-max-concurrent-loads: 500.0
+  max-concurrent-sends: 2
+  min-load-radius: 2
+  player-max-chunk-load-rate: -1.0
+  player-max-concurrent-loads: 20.0
+  target-player-chunk-send-rate: 100.0
+collisions:
+  enable-player-collisions: true
+  send-full-pos-for-hard-colliding-entities: true
+commands:
+  fix-target-selector-tag-completion: true
+  suggest-player-names-when-null-tab-completions: true
+  time-command-affects-all-worlds: false
+console:
+  enable-brigadier-completions: true
+  enable-brigadier-highlighting: true
+  has-all-permissions: true
+item-validation:
+  book:
+    author: 8192
+    page: 16384
+    title: 8192
+  book-size:
+    page-max: 2560
+    total-multiplier: 0.98
+  display-name: 8192
+  lore-line: 8192
+  resolve-selectors-in-books: false
+logging:
+  deobfuscate-stacktraces: true
+  log-player-ip-addresses: true
+  use-rgb-for-named-text-colors: true
+messages:
+  kick:
+    authentication-servers-down: <#ff0000>T</#ff0000><#ff0500>h</#ff0500><#ff0a00>e
+      </#ff0a00><#ff0e00>a</#ff0e00><#ff1300>u</#ff1300><#ff1800>t</#ff1800><#ff1d00>h</#ff1d00><#ff2200>e</#ff2200><#ff2600>n</#ff2600><#ff2b00>t</#ff2b00><#ff3000>i</#ff3000><#ff3500>c</#ff3500><#ff3a00>a</#ff3a00><#ff3e00>t</#ff3e00><#ff4300>i</#ff4300><#ff4800>o</#ff4800><#ff4d00>n
+      </#ff4d00><#ff5100>s</#ff5100><#ff5600>e</#ff5600><#ff5b00>r</#ff5b00><#ff6000>v</#ff6000><#ff6500>e</#ff6500><#ff6900>r</#ff6900><#ff6e00>s
+      </#ff6e00><#ff7300>a</#ff7300><#ff7800>r</#ff7800><#ff7d00>e </#ff7d00><#ff8100>d</#ff8100><#ff8600>o</#ff8600><#ff8b00>w</#ff8b00><#ff9000>n</#ff9000><#ff9500>.
+      </#ff9500><#ff9a00>P</#ff9a00><#ff9e00>l</#ff9e00><#ffa300>e</#ffa300><#ffa800>a</#ffa800><#ffad00>s</#ffad00><#ffb200>e
+      </#ffb200><#ffb700>w</#ffb700><#ffbb00>a</#ffbb00><#ffc000>i</#ffc000><#ffc500>t
+      </#ffc500><#ffca00>a </#ffca00><#ffcf00>f</#ffcf00><#ffd400>e</#ffd400><#ffd800>w
+      </#ffd800><#ffdd00>m</#ffdd00><#ffe200>i</#ffe200><#ffe700>n</#ffe700><#ffec00>u</#ffec00><#fff100>t</#fff100><#fff500>e</#fff500><#fffa00>s</#fffa00><#ffff00>.
+    connection-throttle: <#ff0000>C</#ff0000><#ff0500>o</#ff0500><#ff0b00>n</#ff0b00><#ff1000>n</#ff1000><#ff1500>e</#ff1500><#ff1a00>c</#ff1a00><#ff2000>t</#ff2000><#ff2500>i</#ff2500><#ff2a00>o</#ff2a00><#ff3000>n
+      </#ff3000><#ff3500>t</#ff3500><#ff3a00>h</#ff3a00><#ff4000>r</#ff4000><#ff4500>o</#ff4500><#ff4a00>t</#ff4a00><#ff4f00>t</#ff4f00><#ff5500>l</#ff5500><#ff5a00>e</#ff5a00><#ff5f00>d</#ff5f00><#ff6500>!
+      </#ff6500><#ff6a00>P</#ff6a00><#ff6f00>l</#ff6f00><#ff7400>e</#ff7400><#ff7a00>a</#ff7a00><#ff7f00>s</#ff7f00><#ff8400>e
+      </#ff8400><#ff8a00>w</#ff8a00><#ff8f00>a</#ff8f00><#ff9400>i</#ff9400><#ff9a00>t
+      </#ff9a00><#ff9f00>b</#ff9f00><#ffa400>e</#ffa400><gold>f</gold><#ffaf00>o</#ffaf00><#ffb400>r</#ffb400><#ffba00>e
+      </#ffba00><#ffbf00>r</#ffbf00><#ffc400>e</#ffc400><#ffca00>c</#ffca00><#ffcf00>o</#ffcf00><#ffd400>n</#ffd400><#ffda00>n</#ffda00><#ffdf00>e</#ffdf00><#ffe400>c</#ffe400><#ffea00>t</#ffea00><#ffef00>i</#ffef00><#fff400>n</#fff400><#fffa00>g</#fffa00><#ffff00>.
+    flying-player: <#ff0000>F</#ff0000><#ff0900>l</#ff0900><#ff1200>y</#ff1200><#ff1a00>i</#ff1a00><#ff2300>n</#ff2300><#ff2c00>g
+      </#ff2c00><#ff3500>i</#ff3500><#ff3d00>s </#ff3d00><#ff4600>n</#ff4600><#ff4f00>o</#ff4f00><#ff5800>t
+      </#ff5800><#ff6000>e</#ff6000><#ff6900>n</#ff6900><#ff7200>a</#ff7200><#ff7b00>b</#ff7b00><#ff8300>l</#ff8300><#ff8c00>e</#ff8c00><#ff9500>d
+      </#ff9500><#ff9e00>o</#ff9e00><#ffa700>n </#ffa700><#ffb000>t</#ffb000><#ffb800>h</#ffb800><#ffc100>i</#ffc100><#ffca00>s
+      </#ffca00><#ffd300>s</#ffd300><#ffdc00>e</#ffdc00><#ffe500>r</#ffe500><#ffed00>v</#ffed00><#fff600>e</#fff600><#ffff00>r
+    flying-vehicle: <#ff0000>F</#ff0000><#ff0700>l</#ff0700><#ff0d00>y</#ff0d00><#ff1400>i</#ff1400><#ff1b00>n</#ff1b00><#ff2100>g
+      </#ff2100><#ff2800>v</#ff2800><#ff2f00>e</#ff2f00><#ff3500>h</#ff3500><#ff3c00>i</#ff3c00><#ff4300>c</#ff4300><#ff4a00>l</#ff4a00><#ff5000>e</#ff5000><#ff5700>s
+      </#ff5700><#ff5e00>a</#ff5e00><#ff6400>r</#ff6400><#ff6b00>e </#ff6b00><#ff7200>n</#ff7200><#ff7800>o</#ff7800><#ff7f00>t
+      </#ff7f00><#ff8600>e</#ff8600><#ff8c00>n</#ff8c00><#ff9300>a</#ff9300><#ff9a00>b</#ff9a00><#ffa100>l</#ffa100><#ffa700>e</#ffa700><#ffae00>d
+      </#ffae00><#ffb500>o</#ffb500><#ffbc00>n </#ffbc00><#ffc200>t</#ffc200><#ffc900>h</#ffc900><#ffd000>i</#ffd000><#ffd700>s
+      </#ffd700><#ffdd00>s</#ffdd00><#ffe400>e</#ffe400><#ffeb00>r</#ffeb00><#fff200>v</#fff200><#fff800>e</#fff800><#ffff00>r
+  no-permission: <red>You don't have permissions to run that command. Please contact
+    \\u00A7x\\u00A7f\\u00A7f\\u00A70\\u00A70\\u00A70\\u00A70A\\u00A7x\\u00A7f\\u00A7f\\u00A72\\u00A70\\u00A70\\u00A70r\\u00A7x\\u00A7f\\u00A7f\\u00A74\\u00A70\\u00A70\\u00A70i\\u00A7x\\u00A7f\\u00A7f\\u00A75\\u00A7f\\u00A70\\u00A70t\\u00A7x\\u00A7f\\u00A7f\\u00A77\\u00A7f\\u00A70\\u00A70z\\u00A7x\\u00A7f\\u00A7f\\u00A79\\u00A7f\\u00A70\\u00A703\\u00A7x\\u00A7f\\u00A7f\\u00A7b\\u00A7f\\u00A70\\u00A703\\u00A7x\\u00A7f\\u00A7f\\u00A7d\\u00A7f\\u00A70\\u00A701\\u00A7x\\u00A7f\\u00A7f\\u00A7f\\u00A7f\\u00A70\\u00A70_
+    if you believe that this is in error.
+  use-display-name-in-quit-message: false
+misc:
+  fix-entity-position-desync: true
+  lag-compensate-block-breaking: true
+  load-permissions-yml-before-plugins: true
+  max-joins-per-tick: 3
+  region-file-cache-size: 256
+  strict-advancement-dimension-check: false
+  use-alternative-luck-formula: false
+  use-dimension-type-for-custom-spawners: false
+packet-limiter:
+  all-packets:
+    action: KICK
+    interval: 7.0
+    max-packet-rate: 500.0
+  kick-message: <red><lang:disconnect.exceeded_packet_rate>
+  overrides:
+    ServerboundPlaceRecipePacket:
+      action: DROP
+      interval: 4.0
+      max-packet-rate: 5.0
+player-auto-save:
+  max-per-tick: -1
+  rate: -1
+proxies:
+  bungee-cord:
+    online-mode: true
+  proxy-protocol: false
+  velocity:
+    enabled: false
+    online-mode: false
+    secret: ''
+scoreboards:
+  save-empty-scoreboard-teams: false
+  track-plugin-scoreboards: false
+spam-limiter:
+  incoming-packet-threshold: 300
+  recipe-spam-increment: 1
+  recipe-spam-limit: 20
+  tab-spam-increment: 1
+  tab-spam-limit: 500
+timings:
+  enabled: false
+  hidden-config-entries:
+  - database
+  - settings.bungeecord-addresses
+  - settings.velocity-support.secret
+  - web-services.token
+  - settings.seed
+  - server-ip
+  - proxies.velocity.secret
+  history-interval: 300
+  history-length: 3600
+  really-enabled: false
+  server-name: Aritz331's Server
+  server-name-privacy: false
+  url: https://timings.aikar.co/
+  verbose: true
+unsupported-settings:
+  allow-headless-pistons: true
+  allow-permanent-block-break-exploits: true
+  allow-piston-duplication: true
+  perform-username-validation: true
+watchdog:
+  early-warning-delay: 10000
+  early-warning-every: 5000

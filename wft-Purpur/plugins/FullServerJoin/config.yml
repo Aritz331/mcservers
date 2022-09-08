@@ -1,0 +1,11 @@
+# Full server join configuration
+
+# Configuration version
+# DO NOT CHANGE!
+config-version: 1
+
+# Start kicking players when
+# player count gets higher then this number
+# Set to 0 to disable. 
+# Default value: 0
+max-slots: 0
