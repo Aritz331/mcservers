@@ -1,3 +1,71 @@
-[11:44:54] [ServerMain/ERROR]: Failed to load properties from file: server.properties
-[11:44:54] [ServerMain/WARN]: Failed to load eula.txt
-[11:44:54] [ServerMain/INFO]: You need to agree to the EULA in order to run the server. Go to eula.txt for more info.
+[11:47:00] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[11:47:00] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[11:47:01] [ServerMain/INFO]: Loaded 7 recipes
+[11:47:02] [Server thread/INFO]: Starting minecraft server version 1.19.4
+[11:47:02] [Server thread/WARN]: ****************************
+[11:47:02] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[11:47:02] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[11:47:02] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[11:47:02] [Server thread/WARN]: ****************************
+[11:47:02] [Server thread/INFO]: Loading properties
+[11:47:02] [Server thread/INFO]: This server is running Purpur version git-Purpur-1966 (MC: 1.19.4) (Implementing API version 1.19.4-R0.1-SNAPSHOT) (Git: a54b535 on HEAD)
+[11:47:02] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:47:02] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:47:02] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 4 worker threads, and gen parallelism of 4 threads
+[11:47:02] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[11:47:03] [Server thread/INFO]: [Pufferfish] Max SIMD vector size on this system is 256 bits (int)
+[11:47:03] [Server thread/INFO]: [Pufferfish] Max SIMD vector size on this system is 256 bits (float)
+[11:47:03] [Server thread/INFO]: [Pufferfish] SIMD operations detected as functional. Will replace some operations with faster versions.
+[11:47:03] [Server thread/INFO]: Default game type: SURVIVAL
+[11:47:03] [Server thread/INFO]: Generating keypair
+[11:47:03] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:47:03] [Server thread/INFO]: Using default channel type
+[11:47:03] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[11:47:03] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[11:47:03] [Server thread/INFO]: [spark] Loading server plugin spark v1.10.37
+[11:47:03] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:47:03] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:47:03] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11:47:03] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:47:03] [Server thread/INFO]: Preparing level "world"
+[11:47:09] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:47:09] [Server thread/INFO]: Time elapsed: 62 ms
+[11:47:09] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[11:47:09] [Server thread/INFO]: Time elapsed: 4 ms
+[11:47:09] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[11:47:09] [Server thread/INFO]: Time elapsed: 4 ms
+[11:47:09] [Server thread/INFO]: [spark] Enabling spark v1.10.37
+[11:47:09] [Server thread/INFO]: [spark] Using Paper ServerTickStartEvent for tick monitoring
+[11:47:09] [Server thread/INFO]: [spark] Starting background profiler...
+[11:47:09] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[11:47:10] [Server thread/INFO]: Running delayed init tasks
+[11:47:10] [Server thread/INFO]: Done (7.787s)! For help, type "help"
+[11:47:27] [Server thread/INFO]: Stopping the server
+[11:47:27] [Server thread/INFO]: Stopping server
+[11:47:27] [Server thread/INFO]: [spark] Disabling spark v1.10.37
+[11:47:27] [Server thread/INFO]: Saving players
+[11:47:27] [Server thread/INFO]: Saving worlds
+[11:47:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[11:47:27] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[11:47:27] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[11:47:27] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[11:47:28] [Server thread/INFO]: [ChunkHolderManager] Saved 1089 block chunks, 121 entity chunks, 0 poi chunks in world 'world' in 1,02s
+[11:47:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11:47:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[11:47:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[11:47:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[11:47:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[11:47:29] [Server thread/INFO]: [ChunkHolderManager] Saved 1089 block chunks, 121 entity chunks, 0 poi chunks in world 'world_nether' in 0,76s
+[11:47:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:47:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[11:47:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[11:47:29] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[11:47:29] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[11:47:30] [Server thread/INFO]: [ChunkHolderManager] Saved 1089 block chunks, 121 entity chunks, 0 poi chunks in world 'world_the_end' in 0,69s
+[11:47:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:47:30] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[11:47:30] [Server thread/INFO]: Flushing Chunk IO
+[11:47:30] [Server thread/INFO]: Closing Thread Pool
+[11:47:30] [Server thread/INFO]: Closing Server
