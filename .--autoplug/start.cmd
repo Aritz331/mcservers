@@ -1,1 +1,0 @@
-java -jar AutoPlug-Client.jar

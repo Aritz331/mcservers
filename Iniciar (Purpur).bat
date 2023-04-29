@@ -1,3 +1,0 @@
-    @launch "Purpur" "wft-Purpur" "https://api.purpurmc.org/v2/purpur/1.19.2/latest/download" "purpur.jar" "--add-modules=jdk.incubator.vector" "nogui" 
-rem @launch "Mohist" "Mohist" "" "" "--add-exports=java.base/sun.security.util=ALL-UNNAMED --add-opens=java.base/java.util.jar=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED" "launchedWithJava16 nogui"
-rem @launch "Geyser" "Geyser--Java-Bedrock" "https://ci.opencollab.dev//job/GeyserMC/job/Geyser/job/master/lastSuccessfulBuild/artifact/bootstrap/standalone/target/Geyser.jar" "Geyser.jar" "--add-modules=jdk.incubator.vector" "nogui"
