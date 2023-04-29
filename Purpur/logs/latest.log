@@ -1,71 +1,177 @@
-[11:47:00] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[11:47:00] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
-[11:47:01] [ServerMain/INFO]: Loaded 7 recipes
-[11:47:02] [Server thread/INFO]: Starting minecraft server version 1.19.4
-[11:47:02] [Server thread/WARN]: ****************************
-[11:47:02] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
-[11:47:02] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
-[11:47:02] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
-[11:47:02] [Server thread/WARN]: ****************************
-[11:47:02] [Server thread/INFO]: Loading properties
-[11:47:02] [Server thread/INFO]: This server is running Purpur version git-Purpur-1966 (MC: 1.19.4) (Implementing API version 1.19.4-R0.1-SNAPSHOT) (Git: a54b535 on HEAD)
-[11:47:02] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[11:47:02] [Server thread/INFO]: Using 4 threads for Netty based IO
-[11:47:02] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 4 worker threads, and gen parallelism of 4 threads
-[11:47:02] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[11:47:55] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[11:47:56] [ServerMain/INFO]: Loaded 7 recipes
+[11:47:57] [Server thread/INFO]: Starting minecraft server version 1.19.4
+[11:47:57] [Server thread/WARN]: ****************************
+[11:47:57] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[11:47:57] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[11:47:57] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[11:47:57] [Server thread/WARN]: ****************************
+[11:47:57] [Server thread/INFO]: Loading properties
+[11:47:57] [Server thread/INFO]: This server is running Purpur version git-Purpur-1966 (MC: 1.19.4) (Implementing API version 1.19.4-R0.1-SNAPSHOT) (Git: a54b535 on HEAD)
+[11:47:57] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:47:57] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:47:57] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[11:47:03] [Server thread/INFO]: [Pufferfish] Max SIMD vector size on this system is 256 bits (int)
-[11:47:03] [Server thread/INFO]: [Pufferfish] Max SIMD vector size on this system is 256 bits (float)
-[11:47:03] [Server thread/INFO]: [Pufferfish] SIMD operations detected as functional. Will replace some operations with faster versions.
-[11:47:03] [Server thread/INFO]: Default game type: SURVIVAL
-[11:47:03] [Server thread/INFO]: Generating keypair
-[11:47:03] [Server thread/INFO]: Starting Minecraft server on *:25565
-[11:47:03] [Server thread/INFO]: Using default channel type
-[11:47:03] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[11:47:03] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[11:47:03] [Server thread/INFO]: [spark] Loading server plugin spark v1.10.37
-[11:47:03] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[11:47:03] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[11:47:03] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[11:47:03] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[11:47:03] [Server thread/INFO]: Preparing level "world"
-[11:47:09] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[11:47:09] [Server thread/INFO]: Time elapsed: 62 ms
-[11:47:09] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[11:47:09] [Server thread/INFO]: Time elapsed: 4 ms
-[11:47:09] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[11:47:09] [Server thread/INFO]: Time elapsed: 4 ms
-[11:47:09] [Server thread/INFO]: [spark] Enabling spark v1.10.37
-[11:47:09] [Server thread/INFO]: [spark] Using Paper ServerTickStartEvent for tick monitoring
-[11:47:09] [Server thread/INFO]: [spark] Starting background profiler...
-[11:47:09] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[11:47:10] [Server thread/INFO]: Running delayed init tasks
-[11:47:10] [Server thread/INFO]: Done (7.787s)! For help, type "help"
-[11:47:27] [Server thread/INFO]: Stopping the server
-[11:47:27] [Server thread/INFO]: Stopping server
-[11:47:27] [Server thread/INFO]: [spark] Disabling spark v1.10.37
-[11:47:27] [Server thread/INFO]: Saving players
-[11:47:27] [Server thread/INFO]: Saving worlds
-[11:47:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[11:47:27] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[11:47:27] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[11:47:27] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[11:47:28] [Server thread/INFO]: [ChunkHolderManager] Saved 1089 block chunks, 121 entity chunks, 0 poi chunks in world 'world' in 1,02s
-[11:47:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[11:47:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[11:47:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[11:47:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[11:47:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[11:47:29] [Server thread/INFO]: [ChunkHolderManager] Saved 1089 block chunks, 121 entity chunks, 0 poi chunks in world 'world_nether' in 0,76s
-[11:47:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[11:47:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[11:47:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[11:47:29] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[11:47:29] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[11:47:30] [Server thread/INFO]: [ChunkHolderManager] Saved 1089 block chunks, 121 entity chunks, 0 poi chunks in world 'world_the_end' in 0,69s
-[11:47:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[11:47:30] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[11:47:30] [Server thread/INFO]: Flushing Chunk IO
-[11:47:30] [Server thread/INFO]: Closing Thread Pool
-[11:47:30] [Server thread/INFO]: Closing Server
+[11:47:57] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 4 worker threads, and gen parallelism of 4 threads
+[11:47:57] [Server thread/INFO]: [Pufferfish] Max SIMD vector size on this system is 256 bits (int)
+[11:47:57] [Server thread/INFO]: [Pufferfish] Max SIMD vector size on this system is 256 bits (float)
+[11:47:57] [Server thread/INFO]: [Pufferfish] SIMD operations detected as functional. Will replace some operations with faster versions.
+[11:47:57] [Server thread/INFO]: Default game type: SURVIVAL
+[11:47:57] [Server thread/INFO]: Generating keypair
+[11:47:58] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:47:58] [Server thread/INFO]: Using default channel type
+[11:47:58] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[11:47:58] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[11:47:58] [Server thread/INFO]: [spark] Loading server plugin spark v1.10.37
+[11:47:58] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:47:58] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:47:58] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:47:58] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11:47:58] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:47:58] [Server thread/INFO]: Preparing level "world"
+[11:47:59] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:47:59] [Server thread/INFO]: Time elapsed: 174 ms
+[11:47:59] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[11:47:59] [Server thread/INFO]: Time elapsed: 14 ms
+[11:47:59] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[11:47:59] [Server thread/INFO]: Time elapsed: 11 ms
+[11:47:59] [Server thread/INFO]: [spark] Enabling spark v1.10.37
+[11:48:00] [Server thread/INFO]: [spark] Using Paper ServerTickStartEvent for tick monitoring
+[11:48:00] [Server thread/INFO]: [spark] Starting background profiler...
+[11:48:00] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[11:48:00] [Server thread/INFO]: Running delayed init tasks
+[11:48:00] [Server thread/INFO]: Done (3.707s)! For help, type "help"
+[14:40:43] [Server thread/INFO]: --------- Help: Index ---------------------------
+[14:40:43] [Server thread/INFO]: Use /help [n] to get page n of help.
+[14:40:43] [Server thread/INFO]: Aliases: Lists command aliases
+[14:40:43] [Server thread/INFO]: Bukkit: All commands for Bukkit
+[14:40:43] [Server thread/INFO]: Minecraft: All commands for Minecraft
+[14:40:43] [Server thread/INFO]: spark: All commands for spark
+[14:40:43] [Server thread/INFO]: /advancement: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /attribute: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /ban: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /ban-ip: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /banlist: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /bossbar: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /clear: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /clone: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /compass: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /credits: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /damage: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /data: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /datapack: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /defaultgamemode: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /demo: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /deop: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /difficulty: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /effect: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /enchant: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /execute: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /experience: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /fill: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /fillbiome: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /forceload: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /function: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /gamemode: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /gamerule: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /give: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /help: Shows the help menu
+[14:40:43] [Server thread/INFO]: /item: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /jfr: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /kick: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /kill: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /list: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /locate: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /loot: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /me: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /minecraft:help: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /minecraft:reload: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /msg: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /mspt: View server tick times
+[14:40:43] [Server thread/INFO]: /op: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /paper: Paper related commands
+[14:40:43] [Server thread/INFO]: /pardon: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /pardon-ip: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /particle: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /perf: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /ping: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /place: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /playsound: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /plugins: Gets a list of plugins running on the server
+[14:40:43] [Server thread/INFO]: /pufferfish: Pufferfish related commands
+[14:40:43] [Server thread/INFO]: /purpur: Purpur related commands
+[14:40:43] [Server thread/INFO]: /ram: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /rambar: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /recipe: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /reload: Reloads the server configuration and plugins
+[14:40:43] [Server thread/INFO]: /restart: Restarts the server
+[14:40:43] [Server thread/INFO]: /ride: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /save-all: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /save-off: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /save-on: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /say: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /schedule: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /scoreboard: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /seed: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /setblock: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /setidletimeout: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /setworldspawn: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /spark: Main plugin command
+[14:40:43] [Server thread/INFO]: /spark:tps: 
+[14:40:43] [Server thread/INFO]: /spawnpoint: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /spectate: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /spigot: Spigot related commands
+[14:40:43] [Server thread/INFO]: /spreadplayers: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /stop: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /stopsound: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /summon: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /tag: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /team: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /teammsg: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /teleport: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /tell: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /tellraw: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /time: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /timings: Manages Spigot Timings data to see performance of the server.
+[14:40:43] [Server thread/INFO]: /title: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /tm: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /tp: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /tps: Gets the current ticks per second for the server
+[14:40:43] [Server thread/INFO]: /tpsbar: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /trigger: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /uptime: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /version: Gets the version of this server including any plugins in use
+[14:40:43] [Server thread/INFO]: /w: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /weather: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /whitelist: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /worldborder: A Mojang provided command.
+[14:40:43] [Server thread/INFO]: /xp: A Mojang provided command.
+[14:40:46] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[14:40:48] [Server thread/INFO]: Stopping the server
+[14:40:48] [Server thread/INFO]: Stopping server
+[14:40:48] [Server thread/INFO]: [spark] Disabling spark v1.10.37
+[14:40:48] [Server thread/INFO]: Saving players
+[14:40:48] [Server thread/INFO]: Saving worlds
+[14:40:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14:40:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[14:40:48] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[14:40:48] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[14:40:48] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 5 entity chunks, 0 poi chunks in world 'world' in 0,06s
+[14:40:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14:40:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[14:40:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[14:40:48] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[14:40:48] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[14:40:49] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nether' in 0,07s
+[14:40:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:40:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[14:40:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[14:40:49] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[14:40:49] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[14:40:49] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0,19s
+[14:40:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:40:49] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14:40:49] [Server thread/INFO]: Flushing Chunk IO
+[14:40:49] [Server thread/INFO]: Closing Thread Pool
+[14:40:49] [Server thread/INFO]: Closing Server
