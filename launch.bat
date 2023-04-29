@@ -8,7 +8,7 @@ cd "%2"
 cls
 curl -kL "%3" -o "%4" --progress-bar
 cls
-for %%i in (*.jar) do java -Xmx10G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M -Dlog4j.configurationFile=log4j2.xml %5 -jar "%%i" %6
+for %%i in (*.jar) do java -Xmx10G -XX:+UnlockExperimentalVMOptions -XX:+AlwaysPreTouch -XX:+DisableExplicitGC -XX:+UseG1GC -XX:+UnlockExperimentalVMOptions -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=4M -XX:TargetSurvivorRatio=90 -XX:G1NewSizePercent=50 -XX:G1MaxNewSizePercent=80 -XX:InitiatingHeapOccupancyPercent=10 -XX:G1MixedGCLiveThresholdPercent=50 -XX:+AggressiveOpts -Dlog4j.configurationFile=log4j2.xml %5 -jar "%%i" %6
 echo.
 
 title auto comiter xd
