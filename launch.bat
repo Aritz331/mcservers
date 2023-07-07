@@ -1,15 +1,17 @@
 @echo off
 cd /d "%~dp0"
-if [%1]==[] (exit)
-title %1
+if [%~1]==[] (exit)
+title %~1
 for /f %%i in ('dir /b ".--plugins"') do move ".--plugins\%%i" "%2\plugins"
 for /f %%i in ('dir /b ".--mods"') do move ".--mods\%%i" "%2\mods"
-cd "%2"
+cd "%~2"
 cls
-curl -kL "%3" -o "%4" --progress-bar
+curl -kL "%~3" -o "%~4" --progress-bar
 cls
-for %%i in (*.jar) do java -Xmx10G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M -Dlog4j.configurationFile=log4j2.xml %5 -jar "%%i" %6
+java -Xmx10G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M -Dlog4j.configurationFile=log4j2.xml %~5 -jar "%~4" %~6
+pause
 echo.
+exit /b
 
 title auto comiter xd
 cd ..

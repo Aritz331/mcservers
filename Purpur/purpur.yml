@@ -11,6 +11,7 @@
 verbose: false
 settings:
   messages:
+    afk-broadcast-use-display-name: false
     cannot-ride-mob: <red>You cannot mount that mob
     afk-broadcast-away: <yellow><italic>%s is now AFK
     afk-broadcast-back: <yellow><italic>%s is no longer AFK
@@ -185,7 +186,7 @@ settings:
     upnp-port-forwarding: false
     max-joins-per-second: false
     kick-for-out-of-order-chat: true
-config-version: 31
+config-version: 32
 world-settings:
   default:
     mobs:
@@ -1279,6 +1280,15 @@ world-settings:
           minecraft:crimson_stem:
             into: minecraft:stripped_crimson_stem
             drops: {}
+          minecraft:cherry_log:
+            into: minecraft:stripped_cherry_log
+            drops: {}
+          minecraft:cherry_wood:
+            into: minecraft:stripped_cherry_wood
+            drops: {}
+          minecraft:bamboo_block:
+            into: minecraft:stripped_bamboo_block
+            drops: {}
         waxables:
           minecraft:waxed_exposed_copper:
             into: minecraft:exposed_copper
@@ -1401,12 +1411,15 @@ world-settings:
       entity:
         shared-random: true
     gameplay-mechanics:
+      mending-multiplier: 1.0
       infinity-bow:
         works-without-arrows: false
         normal-arrows: true
         spectral-arrows: false
         tipped-arrows: false
       player:
+        portal-wait-time: 80
+        creative-portal-wait-time: 1
         netherite-fire-resistance:
           duration: 0
           amplifier: 0

@@ -32,3 +32,4 @@ dab:
 enable-suffocation-optimization: true
 inactive-goal-selector-throttle: false
 sentry-dsn: ''
+allow-end-crystal-respawn: true

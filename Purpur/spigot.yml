@@ -65,6 +65,7 @@ world-settings:
       entity: 50
     max-tnt-per-tick: 100
     entity-tracking-range:
+      display: 128
       players: 48
       animals: 48
       monsters: 48
@@ -106,6 +107,7 @@ world-settings:
     trident-despawn-rate: 1200
     thunder-chance: 100000
     growth:
+      torchflower-modifier: 100
       cactus-modifier: 100
       cane-modifier: 100
       melon-modifier: 100
@@ -152,6 +154,8 @@ world-settings:
       villagers-active-for-panic: true
       tick-inactive-villagers: true
       ignore-spectators: false
+    verbose: false
+  faweregentempworld:
     verbose: false
 players:
   disable-saving: false
