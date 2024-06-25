@@ -1,0 +1,274 @@
+[async]
+	[async.async_pathfinding]
+		keepalive = 60
+		max-threads = 0
+		enabled = false
+	#WARNING! Enabling async entity tracker is not recommend currently.
+	#Whether or not async entity tracking should be enabled.
+	#You may encounter issues with NPCs
+	[async.async_entity_tracker]
+		keepalive = 60
+		max-threads = 0
+		enabled = false
+	#Whether or not asynchronous mob spawning should be enabled.
+	#On servers with many entities, this can improve performance by up to 15%. You must have
+	#paper's per-player-mob-spawns setting set to true for this to work.
+	#One quick note - this does not actually spawn mobs async (that would be very unsafe).
+	#This just offloads some expensive calculations that are required for mob spawning.
+	[async.async_mob_spawning]
+		enabled = true
+[performance]
+	# Use the new Virtual Thread introduced in JDK 21 for CraftAsyncScheduler.
+	#
+	[performance.use_virtual_thread_for_async_scheduler]
+		enabled = false
+	[performance.dont_save_entity]
+		#Disable save primed tnt on chunk unloads.
+		#Useful for redstone server, can prevent machine be exploded by TNT,
+		#when player disconnected caused by Internet issue.
+		#
+		dont-save-primed-tnt = false
+		dont-save-falling-block = false
+	#Use faster random generator? (Up to 100X faster)
+	#Requires a JVM that supports RandomGenerator and the LXM generators.
+	#Some JREs don't support this and will cause a crash.
+	#
+	[performance.use_faster_random_generator]
+		enabled = false
+	#Optimizes entity brains when
+	#they're far away from the player
+	[performance.dab]
+		#This value defines how often in ticks, the furthest entity
+		#will get their pathfinders and behaviors ticked. 20 = 1s
+		max-tick-freq = 20
+		#This value defines how much distance modifies an entity's
+		#tick frequency. freq = (distanceToPlayer^2) / (2^value)",
+		#If you want further away entities to tick less often, use 7.
+		#If you want further away entities to tick more often, try 9.
+		activation-dist-mod = 8
+		#This value determines how far away an entity has to be
+		#from the player to start being effected by DEAR.
+		start-distance = 12
+		#A list of entities to ignore for activation
+		blacklisted-entities = []
+		enabled = true
+	[performance.optimized_powered_rails]
+		enabled = true
+	[performance.optimize_minecart]
+		skip-tick-count = 30
+		#Enable this feature to handle large amount of stacked Minecart better.
+		#By skipping tick collisions to reduce expense getting entities list
+		#and bukkit event calls, useful for the anarchy server.
+		#
+		enabled = false
+	#Throttles the AI goal selector in entity inactive ticks.
+	#This can improve performance by a few percent, but has minor gameplay implications.
+	[performance.inactive_goal_selector_throttle]
+		enabled = true
+	[performance.skip_map_item_data_updates_if_map_does_not_have_craftmaprenderer]
+		enabled = true
+	#These values define a entity's maximum lifespan. If an
+	#entity is in this list and it has survived for longer than
+	#that number of ticks, then it will be removed. Setting a value to
+	#-1 disables this feature.
+	[performance.entity_timeouts]
+		MOOSHROOM = -1
+		MAGMA_CUBE = -1
+		SILVERFISH = -1
+		MULE = -1
+		HOGLIN = -1
+		LEASH_KNOT = -1
+		HUSK = -1
+		VINDICATOR = -1
+		WARDEN = -1
+		HOPPER_MINECART = -1
+		PILLAGER = -1
+		SHULKER_BULLET = -1
+		VILLAGER = -1
+		AREA_EFFECT_CLOUD = -1
+		PAINTING = -1
+		TURTLE = -1
+		TRADER_LLAMA = -1
+		SMALL_FIREBALL = -1
+		TNT = -1
+		CAVE_SPIDER = -1
+		SLIME = -1
+		DROWNED = -1
+		FIREBALL = -1
+		EVOKER = -1
+		MARKER = -1
+		EXPERIENCE_BOTTLE = -1
+		ENDERMITE = -1
+		AXOLOTL = -1
+		COMMAND_BLOCK_MINECART = -1
+		PLAYER = -1
+		ITEM = -1
+		TEXT_DISPLAY = -1
+		SALMON = -1
+		ZOMBIE = -1
+		GOAT = -1
+		STRIDER = -1
+		PANDA = -1
+		OCELOT = -1
+		ENDERMAN = -1
+		CHEST_MINECART = -1
+		ZOMBIE_VILLAGER = -1
+		LLAMA = -1
+		ENDER_DRAGON = -1
+		WITCH = -1
+		EXPERIENCE_ORB = -1
+		ITEM_FRAME = -1
+		WITHER = -1
+		ARROW = -1
+		CREEPER = -1
+		ILLUSIONER = -1
+		BREEZE = -1
+		CAMEL = -1
+		COD = -1
+		ZOMBIE_HORSE = -1
+		FURNACE_MINECART = -1
+		RAVAGER = -1
+		BOAT = -1
+		SHULKER = -1
+		SNIFFER = -1
+		BEE = -1
+		ITEM_DISPLAY = -1
+		PHANTOM = -1
+		BLAZE = -1
+		SKELETON_HORSE = -1
+		COW = -1
+		WANDERING_TRADER = -1
+		END_CRYSTAL = -1
+		PIG = -1
+		ZOGLIN = -1
+		WOLF = -1
+		IRON_GOLEM = -1
+		FROG = -1
+		SHEEP = -1
+		VEX = -1
+		ENDER_PEARL = -1
+		BLOCK_DISPLAY = -1
+		TRIDENT = -1
+		PIGLIN_BRUTE = -1
+		POLAR_BEAR = -1
+		MINECART = -1
+		LIGHTNING_BOLT = -1
+		POTION = -1
+		FISHING_BOBBER = -1
+		CHEST_BOAT = -1
+		SQUID = -1
+		DRAGON_FIREBALL = -1
+		ELDER_GUARDIAN = -1
+		HORSE = -1
+		TNT_MINECART = -1
+		ARMOR_STAND = -1
+		PARROT = -1
+		EVOKER_FANGS = -1
+		FOX = -1
+		GIANT = -1
+		STRAY = -1
+		SPECTRAL_ARROW = -1
+		CAT = -1
+		RABBIT = -1
+		DONKEY = -1
+		EYE_OF_ENDER = -1
+		SPAWNER_MINECART = -1
+		GLOW_ITEM_FRAME = -1
+		INTERACTION = -1
+		TROPICAL_FISH = -1
+		ALLAY = -1
+		SPIDER = -1
+		SKELETON = -1
+		WITHER_SKELETON = -1
+		CHICKEN = -1
+		ZOMBIFIED_PIGLIN = -1
+		SNOWBALL = -1
+		GLOW_SQUID = -1
+		SNOW_GOLEM = -1
+		WITHER_SKULL = -1
+		PUFFERFISH = -1
+		GUARDIAN = -1
+		EGG = -1
+		LLAMA_SPIT = -1
+		WIND_CHARGE = -1
+		FALLING_BLOCK = -1
+		PIGLIN = -1
+		GHAST = -1
+		BAT = -1
+		DOLPHIN = -1
+		TADPOLE = -1
+		FIREWORK_ROCKET = -1
+[misc]
+	#Enable to prevent console spam.
+	#
+	[misc.remove_change_non_editable_sign_warning]
+		enabled = false
+	[misc.cache]
+		#The timeout of the cache. Unit: Minutes.
+		#
+		cache-player-profile-result-timeout = 1440
+		#Cache the player profile result on they first join.
+		#It's useful if Mojang's verification server is down.
+		#
+		cache-player-profile-result = true
+	#Remove Vanilla username check
+	#allowing all characters as username
+	[misc.remove_vanilla_username_check]
+		enabled = true
+	[misc.including_5s_in_get_tps]
+		enabled = true
+	#Enable player enter backend server through proxy
+	#without backend server enabling its bungee mode
+	[misc.remove_spigot_check_bungee_config]
+		enabled = true
+	[misc.use_secure_seed]
+		#WARNING! Secure seed is unavailable right now,
+		#you should not enable it.
+		#
+		enabled = false
+	[misc.rebrand]
+		server-mod-name = "Leaf"
+		server-gui-name = "Leaf Console"
+	#Sentry DSN for improved error logging, leave blank to disable,
+	#Obtain from https://sentry.io/welcome/
+	#
+	[misc.sentry_dsn]
+		sentry-dsn = ""
+[network]
+	#Whether or not enable chat message signature,
+	#disable will prevent players to report chat messages.
+	#And also disables the popup when joining a server without
+	#'secure chat', such as offline-mode servers.
+	#
+	[network.chat_message_signature]
+		enabled = true
+	[network.protocol_support]
+		syncmatica-enabled = false
+		chatImage-protocol = false
+		xaero-map-server-id = 800730736
+		asteorbar-protocol = false
+		appleskin-protocol = false
+		jade-protocol = false
+		xaero-map-protocol = false
+		syncmatica-quota = false
+		syncmatica-quota-limit = 40000000
+[gameplay]
+	#Disable moved quickly/wrongly checks
+	[gameplay.disable_moved_wrongly_threshold]
+		enabled = false
+	[gameplay.knockback]
+		#Make snowball can knockback players
+		snowball-knockback-players = false
+		#Make egg can knockback players
+		egg-knockback-players = false
+	[gameplay.use-spigot-item-merging-mechanism]
+		enabled = true
+	#Enable to Use Vanilla End Gateway Teleport
+	[gameplay.use_vanilla_end_teleport]
+		enabled = false
+	[gameplay.configurable_max_use_item_distance]
+		#The max distance of UseItem for players
+		max-use-item-distance = 1.0000001
+		#To enable this, players can use some packet modules
+		#with hack clients and the NoCom Exploit!!
+		remove-max-distance-check = false
