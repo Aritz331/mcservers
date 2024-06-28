@@ -1,0 +1,10 @@
+downloaded from nullforums.net
+---
+
+- LPX:		https://builtbybit.com/resources/lpx-antipacketexploit.15709/
+- Panilla:	https://spigotmc.org/resources/panilla-prevent-hacked-items.65694/
+- Vulcan:	https://spigotmc.org/resources/vulcan-anti-cheat-advanced-cheat-detection-1-7-1-20-6.83626/
+
+anarchy/exploit fix plugins:
+- https://github.com/xGinko/AnarchyExploitFixes (REQUIRES PacketEvents)
+- LPX, Panilla, Vulcan
