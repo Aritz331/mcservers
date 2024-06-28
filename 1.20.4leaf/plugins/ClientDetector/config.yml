@@ -1,0 +1,198 @@
+#  _____ _ _            _   _____       _            _
+# / ____| (_)          | | |  __ \     | |          | |
+# | |    | |_  ___ _ __ | |_| |  | | ___| |_ ___  ___| |_ ___  _ __
+# | |    | | |/ _ \ '_ \| __| |  | |/ _ \ __/ _ \/ __| __/ _ \| '__|
+# | |____| | |  __/ | | | |_| |__| |  __/ ||  __/ (__| || (_) | |
+# \_____|_|_|\___|_| |_|\__|_____/ \___|\__\___|\___|\__\___/|_|
+
+#  ┌─────────────────────────────┐
+#  │  Client detection settings  │
+#  └─────────────────────────────┘
+client:
+  # Should ClientDetector try to detect the client that a player uses? [OPTIONS: 'true'/'false', PLACEHOLDERS: none, DEFAULT:'true']
+  enableClientDetection: true
+  # Should ClientDetector try to detect the version of the client that the player is using? Only a few client's (Lunar, Labymod, ...) support this detection! [OPTIONS: 'true'/'false', PLACEHOLDERS: none, DEFAULT:'true']
+  enableVersionDetection: true
+  # Should ClientDetector detect the MC version of a player? [OPTIONS: 'true'/'false', PLACEHOLDERS: none, DEFAULT:'true']
+  enableMinecraftVersionDetection: true
+  
+  # List of players that will bypass all client punishments. [OPTIONS: 'anyList', PLACEHOLDERS: none, DEFAULT: [- examplePlayer]]
+  whitelistedPlayers:
+  - examplePlayer
+  
+  # If a players' client is detected the plugin will check if it is whitelisted, if not the punish command will be executed (only if this is enabled). [OPTIONS: 'true'/'false', PLACEHOLDERS: none, DEFAULT:'false']
+  enableWhitelist: false
+  # Command that will be executed through the console if it's not on the whitelist. [OPTIONS: 'anyString', PLACEHOLDERS: ['%player_name%', '%player_uuid%', '%client_name%'], DEFAULT:'kick %player_name% %mod_name% is not allowed on this server']
+  punishCommandWhitelist: kick %player_name% %client_name% is not allowed on this
+    server
+  # List of whitelisted clients (name of detected clients can be found here: https://github.com/Sportkanone123/ClientDetector/blob/master/README.md). [OPTIONS: 'anyList', PLACEHOLDERS: none, DEFAULT: [- exampleMod]]
+  whitelistedClients:
+  - exampleClient
+  
+  # If a players' client is detected, and it is on the blacklist, the punish command will be executed through the console (only if this is enabled). [OPTIONS: 'true'/'false', PLACEHOLDERS: none, DEFAULT:'false']
+  enableBlacklist: false
+  # Command that will be executed through the console if the client is on the blacklist. [OPTIONS: 'anyString', PLACEHOLDERS: ['%player_name%', '%player_uuid%', '%client_name%'], DEFAULT:'kick %player_name% %mod_name% is not allowed on this server']
+  punishCommandBlacklist: kick %player_name% %client_name% is not allowed on this
+    server
+  # List of blacklisted clients (name of detected clients can be found here: https://github.com/Sportkanone123/ClientDetector/blob/master/README.md). [OPTIONS: 'anyList', PLACEHOLDERS: none, DEFAULT: [- exampleMod]]
+  blacklistedClients:
+  - exampleClient
+
+
+#  ┌─────────────────────────────┐
+#  │   Mod detection settings    │
+#  └─────────────────────────────┘
+mods:
+  # Should ClientDetector try to detect the mods that a player uses (not only forge mods)? [OPTIONS: 'true'/'false', PLACEHOLDERS: none, DEFAULT:'true']
+  enableModDetection: true
+  
+  # List of players that will bypass all mod punishments. [OPTIONS: 'anyList', PLACEHOLDERS: none, DEFAULT: [- examplePlayer]]
+  whitelistedPlayers:
+  - examplePlayer
+  
+  # If a player joins with mods the plugin will check if all mods are whitelisted, if not the punish command will be executed (only if this is enabled). [OPTIONS: 'true'/'false', PLACEHOLDERS: none, DEFAULT:'false']
+  enableWhitelist: false
+  # Command that will be executed through the console if not all mods that a player are whitelisted. [OPTIONS: 'anyString', PLACEHOLDERS: ['%player_name%', '%player_uuid%', '%mod_name%'], DEFAULT:'kick %player_name% %mod_name% is not allowed on this server']
+  punishCommandWhitelist: kick %player_name% %mod_name% is not allowed on this server
+  # List of whitelisted mods (name of detected mods can be found here: https://github.com/Sportkanone123/ClientDetector/blob/master/README.md). [OPTIONS: 'anyList', PLACEHOLDERS: none, DEFAULT: [- exampleMod]]
+  whitelistedMods:
+  - exampleMod
+  
+  # If a player join and one or more of his mods are on this list, the punish command will be executed through the console (only if this is enabled). [OPTIONS: 'true'/'false', PLACEHOLDERS: none, DEFAULT:'false']
+  enableBlacklist: false
+  # Command that will be executed through the console if one or more of his mods are on the blacklist. [OPTIONS: 'anyString', PLACEHOLDERS: ['%player_name%', '%player_uuid%', '%mod_name%'], DEFAULT:'kick %player_name% %mod_name% is not allowed on this server']
+  punishCommandBlacklist: kick %player_name% %mod_name% is not allowed on this server
+  # List of blacklisted mods (name of detected mods can be found here: https://github.com/Sportkanone123/ClientDetector/blob/master/README.md). [OPTIONS: 'anyList', PLACEHOLDERS: none, DEFAULT: [- exampleMod]]
+  blacklistedMods:
+  - exampleMod
+
+
+#  ┌─────────────────────────────┐
+#  │       Alerts settings       │
+#  └─────────────────────────────┘
+alerts:
+  # Should the notifications be sent when a player's client/mods are detected? [OPTIONS: 'true'/'false', PLACEHOLDERS: none, DEFAULT:'true']
+  enableNotifications: true
+  # Should the notifications be sent on every server that ClientDetector is installed on, on your network? (This only works if bungee.enableBungeeClient is enabled!) [OPTIONS: 'true'/'false', PLACEHOLDERS: none, DEFAULT:'true']
+  crossServerNotifications: true
+  # Should only important notifications be sent to the player's to avoid spamming? [OPTIONS: 'true'/'false', PLACEHOLDERS: none, DEFAULT:'false']
+  limitNotifications: false
+  # Everybody with this permission will get notifications about a player's client [OPTIONS: 'any.valid.permission', PLACEHOLDERS: none, DEFAULT:'clientdetecor.notify']
+  notificationPermission: clientdetector.notify
+  # Should vanilla join/leave messages be disabled? [OPTIONS: 'true'/'false', PLACEHOLDERS: none, DEFAULT:'false']
+  disablevanillamessages: false
+# ClansLite update system
+plugin-update-notifications:
+  # Do you want to enable in game plugin update notifications? (Permission:'clanslite.update'). [Default value: true]
+  enabled: true
+
+
+#  ┌─────────────────────────────┐
+#  │    Placeholder settings     │
+#  └─────────────────────────────┘
+placeholder:
+  # Should placeholder be enabled? [OPTIONS: 'true'/'false', PLACEHOLDERS: none, DEFAULT:'true']
+  enablePlaceholder: true
+
+
+#  ┌─────────────────────────────┐
+#  │       Forge settings        │
+#  └─────────────────────────────┘
+forge:
+  # Should forge mod detection be enabled for legacy(1.8-1.12.2) versions? [OPTIONS: 'true'/'false', PLACEHOLDERS: none, DEFAULT:'true']
+  enableLegacyDetection: true
+  # Should forge mod detection be enabled for newer(1.13+) versions? [OPTIONS: 'true'/'false', PLACEHOLDERS: none, DEFAULT:'true']
+  enableNewerVersionDetection: true
+  # Should the plugin send a "fake" handshake, this is required to get the modlist of a forge player. [OPTIONS: 'true'/'false', PLACEHOLDERS: none, DEFAULT:'true']
+  # NOTE: This setting is unstable on 1.17+ and will be disabled automatically on startup.
+  simulateForgeHandshake: false
+  
+  # List of players that will bypass all forge punishments. [OPTIONS: 'anyList', PLACEHOLDERS: none, DEFAULT: [- examplePlayer]]
+  whitelistedPlayers:
+  - examplePlayer
+  
+  # Should all player's that join with forge get kicked? [OPTIONS: 'true'/'false', PLACEHOLDERS: none, DEFAULT:'false']
+  blockForge: false
+  # Command that will be executed through the console if one or more of his mods are on the blacklist. [OPTIONS: 'anyString', PLACEHOLDERS: ['%player_name%', '%player_uuid%'], DEFAULT:'kick %player_name% Forge is not allowed on this server']
+  punishCommandForge: kick %player_name% Forge is not allowed on this Server
+  
+  # If a player joins with forge the plugin will check if all forge mods are whitelisted, if not the punish command will be executed (only if this is enabled). [OPTIONS: 'true'/'false', PLACEHOLDERS: none, DEFAULT:'false']
+  enableWhitelist: false
+  # Command that will be executed through the console if not all forge mods that a player are whitelisted. [OPTIONS: 'anyString', PLACEHOLDERS: ['%player_name%', '%player_uuid%', '%mod_name%'], DEFAULT:'kick %player_name% %mod_name% is not allowed on this server']
+  punishCommandWhitelist: kick %player_name% %mod_name% is not allowed on this server
+  # List of whitelisted mods (name = ModID). [OPTIONS: 'anyList', PLACEHOLDERS: none, DEFAULT: [- exampleMod]]
+  whitelistedMods:
+  - exampleMod
+  
+  # If a player join and one or more of his forge mods are on this list, the punish command will be executed through the console (only if this is enabled). [OPTIONS: 'true'/'false', PLACEHOLDERS: none, DEFAULT:'false']
+  enableBlacklist: false
+  # Command that will be executed through the console if one or more of his forge mods are on the blacklist. [OPTIONS: 'anyString', PLACEHOLDERS: ['%player_name%', '%player_uuid%', '%mod_name%'], DEFAULT:'kick %player_name% %mod_name% is not allowed on this server']
+  punishCommandBlacklist: kick %player_name% %mod_name% is not allowed on this server
+  # List of blacklisted mods (name = ModID). [OPTIONS: 'anyList', PLACEHOLDERS: none, DEFAULT: [- exampleMod]]
+  blacklistedMods:
+  - exampleMod
+
+
+#  ┌─────────────────────────────┐
+#  │  Cross Server Sync Settings │
+#  └─────────────────────────────┘
+bungee:
+  # Do you want to use the BungeeCord feature? (Only enable if you use Bungeecord) [OPTIONS: 'true'/'false', PLACEHOLDERS: none, DEFAULT: 'false']
+  enableBungeeClient: false
+  # Name of this Spigot/Paper/Bukkit/... server. [OPTIONS: 'anyString'', PLACEHOLDERS: none, DEFAULT: 'LOBBY']
+  serverName: LOBBY
+
+
+
+#  ┌─────────────────────────────┐
+#  │      Discord settings       │
+#  └─────────────────────────────┘
+discord:
+  # Discord WebHook Url. [OPTIONS: 'anyString', PLACEHOLDERS: none, DEFAULT: ""]
+  webHookUrl: ''
+  # Title of the embed message. [OPTIONS: 'anyString', PLACEHOLDERS: ['%player_name%', '%player_uuid%', '%client_name%', '%line_break%'], DEFAULT: "ClientDetector"]
+  embedTitle: ClientDetector
+  # Message of the embed message. [OPTIONS: 'anyString', PLACEHOLDERS: ['%player_name%', '%player_uuid%', '%client_name%', '%line_break%'], DEFAULT: ""]
+  embedMessage: '%player_name% joined using %client_name%'
+  # Should the footer be disabled. [OPTIONS: 'true'/'false', PLACEHOLDERS: none, DEFAULT:'false']
+  disableEmbedFooter: false
+  # Should only important notifications be sent to the discord? [OPTIONS: 'true'/'false', PLACEHOLDERS: none, DEFAULT:'false']
+  limitNotifications: false
+
+
+#  ┌─────────────────────────────┐
+#  │    HackDetector settings    │
+#  └─────────────────────────────┘
+hackdetector:
+  chatexploit:
+    # If a player joins they have to click on a message to continue playing. [OPTIONS: 'true'/'false', PLACEHOLDERS: none, DEFAULT:'false']
+    enableChatExploit: false
+    # Should the player be allowed to move while he is tested. [OPTIONS: 'true'/'false', PLACEHOLDERS: none, DEFAULT:'true']
+    disableMoving: true
+    # Seconds after which the player gets kicked if he does not pass the test. [OPTIONS: 'anyInteger', PLACEHOLDERS: none, DEFAULT:'20']
+    kickAfterSeconds: 20
+    # Command that will be executed through the console if he fails the test. [OPTIONS: 'anyString', PLACEHOLDERS: ['%player_name%', '%player_uuid%', '%prefix%'], DEFAULT:'kick %player_name% %prefix% &aYou failed the test. \n&7(&fIf you think this is an error, please rejoin and click the message&7)']
+    punishCommand: "kick %player_name% %prefix% &aYou failed the test. \n&7(&fIf you\
+      \ think this is an error, please rejoin and click the message&7)"
+  
+  antifastmath:
+    # ClienDetector can check if a player is using FastMath by analysing his movement. [OPTIONS: 'true'/'false', PLACEHOLDERS: none, DEFAULT:'false']
+    # NOTE: This setting may prevent users from joining when using an Optifine client also!
+    enableAntiFastMath: false
+    # If FastMath is not detected set this Integer higher (min: 1, max: 50) [OPTIONS: 'anyInteger', PLACEHOLDERS: none, DEFAULT:'20']
+    checkAfterCounts: 20
+    # Should the player be punished if he uses FastMath (FastMath doesn't indicate a hack client directly, but it doesn't exist in vanilla minecaft) . [OPTIONS: 'true'/'false', PLACEHOLDERS: none, DEFAULT:'false']
+    enablePunishment: false
+    # Command that will be executed through the console if he fails the test. [OPTIONS: 'anyString', PLACEHOLDERS: ['%player_name%', '%player_uuid%', '%prefix%'], DEFAULT:'kick %player_name% %prefix% &aPlease use Vanilla Minecraft!']
+    punishCommand: kick %player_name% %prefix% &aPlease use Vanilla Minecraft!
+  
+  detectcrackedvape:
+    # ClienDetector can check if a player is using cracked Vape by sending one line to the player when joining, it is displayed as an empty line. [OPTIONS: 'true'/'false', PLACEHOLDERS: none, DEFAULT:'true']
+    enableDetectCrackedVape: true
+
+#  ┌─────────────────────────────┐
+#  │    HackDetector settings    │
+#  └─────────────────────────────┘
+velocity:
+  # Do you want to use the Velocity feature? (Only enable if you use Velocity) [OPTIONS: 'true'/'false', PLACEHOLDERS: none, DEFAULT: 'false']
+  enableVelocitySupport: false

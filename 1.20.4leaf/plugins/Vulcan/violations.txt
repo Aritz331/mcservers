@@ -1,0 +1,150 @@
+[06-29-2024] [01:27:48] aritz331_ failed Flight (Type B) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=13 delay=50 tp=75
+[06-29-2024] [01:27:49] aritz331_ failed Flight (Type B) [VL: 4] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=24 delay=123 tp=86
+[06-29-2024] [01:27:49] aritz331_ failed Flight (Type B) [VL: 6] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=28 delay=50 tp=90
+[06-29-2024] [01:27:50] aritz331_ failed Flight (Type B) [VL: 8] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=32 delay=442 tp=94
+[06-29-2024] [01:28:07] aritz331_ failed Flight (Type B) [VL: 10] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=18 delay=51 tp=166
+[06-29-2024] [01:28:07] aritz331_ failed Flight (Type B) [VL: 12] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=22 delay=52 tp=170
+[06-29-2024] [01:28:07] aritz331_ failed Flight (Type B) [VL: 14] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=26 delay=50 tp=174
+[06-29-2024] [01:28:07] aritz331_ failed Strafe (Type A) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] difference=0.007507935132685613 deltaXZ=0.2772417754124464
+[06-29-2024] [01:28:28] aritz331_ failed Aim (Type K) [VL: 1] [Ping: 0] [TPS: 19.99] [Version: 1.20.3] [Client: Fabric] deltaYaw=0.17861938 deltaPitch=0.47084808
+[06-29-2024] [01:28:33] aritz331_ failed Aim (Type K) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaYaw=2.5582886 deltaPitch=0.63007355
+[06-29-2024] [01:28:36] aritz331_ failed Aim (Type K) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaYaw=2.034813 deltaPitch=5.1410484
+[06-29-2024] [01:28:37] aritz331_ failed Aim (Type K) [VL: 4] [Ping: 0] [TPS: 19.99] [Version: 1.20.3] [Client: Fabric] deltaYaw=2.0346985 deltaPitch=4.0457916
+[06-29-2024] [01:28:38] aritz331_ failed Aim (Type W) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] sens=-28 deltaYaw=167.71751 deltaPitch=13.596174
+[06-29-2024] [01:28:40] aritz331_ failed Aim (Type I) [VL: 1] [Ping: 0] [TPS: 19.99] [Version: 1.20.3] [Client: Fabric] rotation=62 deltaPitch=1.0082207 deltaYaw=2.4297028
+[06-29-2024] [01:28:41] aritz331_ failed Aim (Type Y) [VL: 1] [Ping: 0] [TPS: 19.99] [Version: 1.20.3] [Client: Fabric] diff=26.350683 dist=1.2372407196643425
+[06-29-2024] [01:28:41] aritz331_ failed Aim (Type Y) [VL: 2] [Ping: 0] [TPS: 19.99] [Version: 1.20.3] [Client: Fabric] diff=26.28399 dist=1.2372407196643425
+[06-29-2024] [01:28:41] aritz331_ failed Aim (Type I) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] rotation=28 deltaPitch=2.6066341 deltaYaw=1.1223145
+[06-29-2024] [01:28:42] aritz331_ failed Aim (Type I) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] rotation=31 deltaPitch=2.7994194 deltaYaw=1.304657
+[06-29-2024] [01:28:43] aritz331_ failed Aim (Type I) [VL: 4] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] rotation=18 deltaPitch=1.8510704 deltaYaw=0.3944626
+[06-29-2024] [01:28:44] aritz331_ failed Flight (Type B) [VL: 16] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=91 delay=49 tp=744
+[06-29-2024] [01:28:45] aritz331_ failed Flight (Type B) [VL: 18] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=95 delay=50 tp=748
+[06-29-2024] [01:28:45] aritz331_ failed Aim (Type I) [VL: 5] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] rotation=23 deltaPitch=4.297676 deltaYaw=4.594391
+[06-29-2024] [01:28:46] aritz331_ failed Aim (Type W) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] sens=-33 deltaYaw=4.3251495 deltaPitch=9.646492
+[06-29-2024] [01:28:47] aritz331_ failed Aim (Type K) [VL: 5] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaYaw=0.8098831 deltaPitch=0.16405487
+[06-29-2024] [01:28:49] aritz331_ failed Aim (Type K) [VL: 6] [Ping: 0] [TPS: 19.99] [Version: 1.20.3] [Client: Fabric] deltaYaw=0.45645905 deltaPitch=1.2527857
+[06-29-2024] [01:28:53] aritz331_ failed Aim (Type K) [VL: 7] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaYaw=0.6876602 deltaPitch=5.010895
+[06-29-2024] [01:28:56] aritz331_ failed Aim (Type I) [VL: 6] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] rotation=84 deltaPitch=3.3444939 deltaYaw=0.8837967
+[06-29-2024] [01:28:57] aritz331_ failed Flight (Type B) [VL: 20] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=22 delay=50 tp=986
+[06-29-2024] [01:28:58] aritz331_ failed Flight (Type B) [VL: 22] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=26 delay=52 tp=990
+[06-29-2024] [01:29:02] aritz331_ failed Aim (Type I) [VL: 7] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] rotation=100 deltaPitch=5.3647633 deltaYaw=1.1487198
+[06-29-2024] [01:29:31] aritz331_ failed Strafe (Type A) [VL: 4] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] difference=0.12668488311259873 deltaXZ=0.28369218575827304
+[06-29-2024] [01:29:32] aritz331_ failed Jump (Type A) [VL: 1] [Ping: 0] [TPS: 19.99] [Version: 1.20.3] [Client: Fabric] deltaY=0.24813599859094637 ticks=4 difference=0.08336271676488138
+[06-29-2024] [01:29:32] aritz331_ failed Jump (Type A) [VL: 2] [Ping: 0] [TPS: 19.99] [Version: 1.20.3] [Client: Fabric] deltaY=0.08307781780646906 ticks=6 difference=0.1614778193323474
+[06-29-2024] [01:29:39] aritz331_ failed Jump (Type A) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.24813599859094637 ticks=4 difference=0.08336271676488138
+[06-29-2024] [01:29:39] aritz331_ failed Jump (Type A) [VL: 4] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.08307781780646906 ticks=6 difference=0.1614778193323474
+[06-29-2024] [01:29:40] aritz331_ failed Jump (Type A) [VL: 5] [Ping: 0] [TPS: 19.99] [Version: 1.20.3] [Client: Fabric] deltaY=0.33319999363422426 ticks=3 difference=0.08506399504327788
+[06-29-2024] [01:29:40] aritz331_ failed Improbable (Type B) [VL: 1] [Ping: 0] [TPS: 19.99] [Version: 1.20.3] [Client: Fabric] movementViolations=31
+[06-29-2024] [01:30:01] aritz331_ failed Jump (Type A) [VL: 1] [Ping: 0] [TPS: 19.99] [Version: 1.20.3] [Client: Fabric] deltaY=0.164773281826065 ticks=5 difference=0.08169546401959593
+[06-29-2024] [01:30:02] aritz331_ failed Jump (Type A) [VL: 2] [Ping: 0] [TPS: 19.99] [Version: 1.20.3] [Client: Fabric] deltaY=0.41999998688697815 ticks=2 difference=0.0867999932527539
+[06-29-2024] [01:30:02] aritz331_ failed Jump (Type A) [VL: 3] [Ping: 0] [TPS: 19.99] [Version: 1.20.3] [Client: Fabric] deltaY=0.24813599859094637 ticks=4 difference=0.08336271676488138
+[06-29-2024] [01:30:02] aritz331_ failed Jump (Type A) [VL: 4] [Ping: 0] [TPS: 19.99] [Version: 1.20.3] [Client: Fabric] deltaY=0.41999998688697815 ticks=2 difference=0.0867999932527539
+[06-29-2024] [01:30:02] aritz331_ failed Jump (Type A) [VL: 5] [Ping: 0] [TPS: 19.99] [Version: 1.20.3] [Client: Fabric] deltaY=0.24813599859094637 ticks=4 difference=0.08336271676488138
+[06-29-2024] [01:30:07] aritz331_ failed Flight (Type B) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=14 delay=51 tp=174
+[06-29-2024] [01:30:22] aritz331_ failed Jump (Type A) [VL: 6] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.41999998688697815 ticks=2 difference=0.0867999932527539
+[06-29-2024] [01:30:22] aritz331_ failed Jump (Type A) [VL: 7] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.1647732818260721 ticks=5 difference=0.08169546401960304
+[06-29-2024] [01:30:30] aritz331_ failed Jump (Type A) [VL: 8] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.24813599859093927 ticks=6 difference=0.3265360001168176
+[06-29-2024] [01:30:31] aritz331_ failed Jump (Type A) [VL: 9] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.41999998688697815 ticks=7 difference=0.5752319914035766
+[06-29-2024] [01:30:31] aritz331_ failed Jump (Type A) [VL: 10] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.33319999363422426 ticks=8 difference=0.5637273625471906
+[06-29-2024] [01:30:33] aritz331_ failed Jump (Type A) [VL: 11] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.24813599859093927 ticks=7 difference=0.40336800310753773
+[06-29-2024] [01:31:05] aritz331_ failed Flight (Type B) [VL: 4] [Ping: 3] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=46 delay=53 tp=487
+[06-29-2024] [01:31:05] aritz331_ failed Flight (Type B) [VL: 6] [Ping: 3] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.41999998688697815 difference=0.49839998841285704 ticks=50 delay=44 tp=491
+[06-29-2024] [01:31:05] aritz331_ failed Strafe (Type A) [VL: 2] [Ping: 3] [TPS: 20] [Version: 1.20.3] [Client: Fabric] difference=0.21224220026298293 deltaXZ=0.4713531474721274
+[06-29-2024] [01:31:16] aritz331_ failed Flight (Type B) [VL: 8] [Ping: 0] [TPS: 19.99] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=13 delay=39 tp=651
+[06-29-2024] [01:31:16] aritz331_ failed Flight (Type B) [VL: 10] [Ping: 0] [TPS: 19.99] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=17 delay=50 tp=655
+[06-29-2024] [01:31:16] aritz331_ failed Flight (Type B) [VL: 12] [Ping: 0] [TPS: 19.99] [Version: 1.20.3] [Client: Fabric] deltaY=0.41999998688697815 difference=0.49839998841285704 ticks=21 delay=51 tp=659
+[06-29-2024] [01:31:24] aritz331_ failed Flight (Type B) [VL: 14] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=18 delay=55 tp=741
+[06-29-2024] [01:31:24] aritz331_ failed Flight (Type B) [VL: 16] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=22 delay=50 tp=745
+[06-29-2024] [01:31:24] aritz331_ failed Improbable (Type B) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] movementViolations=31
+[06-29-2024] [01:32:01] aritz331_ failed Flight (Type B) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.41999998688697815 difference=0.49839998841285704 ticks=27 delay=51 tp=258
+[06-29-2024] [01:32:04] aritz331_ failed Bad Packets (Type A) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] flying=false
+[06-29-2024] [01:32:04] aritz331_ failed Bad Packets (Type A) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] flying=false
+[06-29-2024] [01:32:04] aritz331_ failed Bad Packets (Type A) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] flying=false
+[06-29-2024] [01:32:14] aritz331_ failed Flight (Type B) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=13 delay=50 tp=30
+[06-29-2024] [01:32:22] aritz331_ failed Flight (Type B) [VL: 4] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=25 delay=50 tp=42
+[06-29-2024] [01:32:22] aritz331_ failed Flight (Type B) [VL: 6] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=29 delay=51 tp=46
+[06-29-2024] [01:32:22] aritz331_ failed Flight (Type B) [VL: 8] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=33 delay=50 tp=50
+[06-29-2024] [01:32:54] aritz331_ failed Speed (Type C) [VL: 2] [Ping: 0] [TPS: 19.99] [Version: 1.20.3] [Client: Fabric] speed=0.9800000218623374 max=0.45999999999999996 diff=0.5200000218623374 ticks=80 deltaY=0.0
+[06-29-2024] [01:32:54] aritz331_ failed Speed (Type D) [VL: 2] [Ping: 0] [TPS: 19.99] [Version: 1.20.3] [Client: Fabric] speed=0.9800000218623374 max=0.39749999999999996 diff=0.5825000218623374 ticks=73 deltaY=0.0 tp=97
+[06-29-2024] [01:32:54] aritz331_ failed Speed (Type D) [VL: 3] [Ping: 0] [TPS: 19.99] [Version: 1.20.3] [Client: Fabric] speed=0.9800000117372908 max=0.39749999999999996 diff=0.5825000117372908 ticks=74 deltaY=0.0 tp=98
+[06-29-2024] [01:32:54] aritz331_ failed Flight (Type B) [VL: 10] [Ping: 0] [TPS: 19.99] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=82 delay=51 tp=99
+[06-29-2024] [01:32:54] aritz331_ failed Speed (Type C) [VL: 4] [Ping: 0] [TPS: 19.99] [Version: 1.20.3] [Client: Fabric] speed=0.9800000117372908 max=0.45999999999999996 diff=0.5200000117372908 ticks=82 deltaY=0.0
+[06-29-2024] [01:32:54] aritz331_ failed Speed (Type D) [VL: 4] [Ping: 0] [TPS: 19.99] [Version: 1.20.3] [Client: Fabric] speed=0.9800000117372908 max=0.39749999999999996 diff=0.5825000117372908 ticks=75 deltaY=0.0 tp=99
+[06-29-2024] [01:32:54] aritz331_ failed Speed (Type D) [VL: 5] [Ping: 0] [TPS: 19.99] [Version: 1.20.3] [Client: Fabric] speed=0.9800000117372908 max=0.39749999999999996 diff=0.5825000117372908 ticks=78 deltaY=0.0 tp=102
+[06-29-2024] [01:32:55] aritz331_ failed Speed (Type C) [VL: 6] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] speed=0.9800000117372908 max=0.45999999999999996 diff=0.5200000117372908 ticks=86 deltaY=0.0
+[06-29-2024] [01:32:55] aritz331_ failed Speed (Type D) [VL: 6] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] speed=0.9800000117372908 max=0.39749999999999996 diff=0.5825000117372908 ticks=79 deltaY=0.0 tp=103
+[06-29-2024] [01:32:55] aritz331_ failed Speed (Type B) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] speed=0.9800000117372908 max=0.7205 diff=0.25950001173729076 ticks=0 deltaY=0.0
+[06-29-2024] [01:32:55] aritz331_ failed Speed (Type D) [VL: 7] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] speed=0.9800000117372908 max=0.39749999999999996 diff=0.5825000117372908 ticks=80 deltaY=0.0 tp=104
+[06-29-2024] [01:32:55] aritz331_ failed Flight (Type B) [VL: 12] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=88 delay=303 tp=105
+[06-29-2024] [01:32:55] aritz331_ failed Speed (Type C) [VL: 8] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] speed=0.9800000391800264 max=0.45999999999999996 diff=0.5200000391800265 ticks=88 deltaY=0.0
+[06-29-2024] [01:32:55] aritz331_ failed Speed (Type D) [VL: 8] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] speed=0.9800000391800264 max=0.39749999999999996 diff=0.5825000391800265 ticks=81 deltaY=0.0 tp=105
+[06-29-2024] [01:32:55] aritz331_ failed Speed (Type D) [VL: 9] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] speed=0.9799999978409587 max=0.39749999999999996 diff=0.5824999978409587 ticks=82 deltaY=0.0 tp=106
+[06-29-2024] [01:32:55] aritz331_ failed Strafe (Type A) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] difference=0.06833758801190051 deltaXZ=0.9799999978409587
+[06-29-2024] [01:32:55] aritz331_ failed Improbable (Type B) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] movementViolations=33
+[06-29-2024] [01:33:11] aritz331_ failed Flight (Type B) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=30 delay=50 tp=36
+[06-29-2024] [01:33:11] aritz331_ failed Flight (Type B) [VL: 4] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=34 delay=50 tp=40
+[06-29-2024] [01:33:11] aritz331_ failed Flight (Type B) [VL: 6] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=38 delay=51 tp=44
+[06-29-2024] [01:33:12] aritz331_ failed Flight (Type B) [VL: 8] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=42 delay=50 tp=48
+[06-29-2024] [01:33:12] aritz331_ failed Flight (Type B) [VL: 10] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=46 delay=52 tp=52
+[06-29-2024] [01:33:12] aritz331_ failed Flight (Type B) [VL: 12] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=50 delay=51 tp=56
+[06-29-2024] [01:33:12] aritz331_ failed Flight (Type B) [VL: 14] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=54 delay=51 tp=60
+[06-29-2024] [01:33:12] aritz331_ failed Flight (Type B) [VL: 16] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=58 delay=51 tp=64
+[06-29-2024] [01:33:13] aritz331_ failed Flight (Type B) [VL: 18] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=62 delay=52 tp=68
+[06-29-2024] [01:33:13] aritz331_ failed Flight (Type B) [VL: 20] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=66 delay=50 tp=72
+[06-29-2024] [01:33:13] aritz331_ failed Flight (Type B) [VL: 22] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=70 delay=49 tp=76
+[06-29-2024] [01:33:13] aritz331_ failed Flight (Type B) [VL: 24] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=74 delay=51 tp=80
+[06-29-2024] [01:33:13] aritz331_ failed Flight (Type B) [VL: 26] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=78 delay=51 tp=84
+[06-29-2024] [01:33:14] aritz331_ failed Flight (Type B) [VL: 28] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=82 delay=50 tp=88
+[06-29-2024] [01:33:14] aritz331_ failed Flight (Type B) [VL: 30] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=86 delay=52 tp=92
+[06-29-2024] [01:33:27] aritz331_ failed Flight (Type B) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=46 delay=50 tp=50
+[06-29-2024] [01:33:27] aritz331_ failed Flight (Type B) [VL: 4] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=50 delay=52 tp=54
+[06-29-2024] [01:33:27] aritz331_ failed Flight (Type B) [VL: 6] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=54 delay=50 tp=58
+[06-29-2024] [01:33:27] aritz331_ failed Flight (Type B) [VL: 8] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=58 delay=51 tp=62
+[06-29-2024] [01:33:28] aritz331_ failed Flight (Type B) [VL: 10] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=62 delay=51 tp=66
+[06-29-2024] [01:33:28] aritz331_ failed Flight (Type B) [VL: 12] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=66 delay=51 tp=70
+[06-29-2024] [01:33:28] aritz331_ failed Flight (Type B) [VL: 14] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=70 delay=50 tp=74
+[06-29-2024] [01:33:28] aritz331_ failed Flight (Type B) [VL: 16] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=74 delay=51 tp=78
+[06-29-2024] [01:33:28] aritz331_ failed Flight (Type B) [VL: 18] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=78 delay=50 tp=82
+[06-29-2024] [01:33:29] aritz331_ failed Flight (Type B) [VL: 20] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=82 delay=51 tp=86
+[06-29-2024] [01:33:30] aritz331_ failed Bad Packets (Type A) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] flying=false
+[06-29-2024] [01:33:30] aritz331_ failed Bad Packets (Type A) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] flying=false
+[06-29-2024] [01:33:30] aritz331_ failed Bad Packets (Type A) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] flying=false
+[06-29-2024] [01:33:33] aritz331_ failed Bad Packets (Type A) [VL: 1] [Ping: 0] [TPS: 19.99] [Version: 1.20.3] [Client: Fabric] flying=false
+[06-29-2024] [01:33:33] aritz331_ failed Bad Packets (Type A) [VL: 2] [Ping: 0] [TPS: 19.99] [Version: 1.20.3] [Client: Fabric] flying=false
+[06-29-2024] [01:33:33] aritz331_ failed Bad Packets (Type A) [VL: 3] [Ping: 0] [TPS: 19.99] [Version: 1.20.3] [Client: Fabric] flying=false
+[06-29-2024] [01:33:36] aritz331_ failed Bad Packets (Type A) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] flying=false
+[06-29-2024] [01:33:36] aritz331_ failed Bad Packets (Type A) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] flying=false
+[06-29-2024] [01:33:36] aritz331_ failed Bad Packets (Type A) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] flying=false
+[06-29-2024] [01:33:43] aritz331_ failed Flight (Type B) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=13 delay=50 tp=20
+[06-29-2024] [01:33:44] aritz331_ failed Flight (Type B) [VL: 4] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=12 delay=52 tp=39
+[06-29-2024] [01:33:44] aritz331_ failed Flight (Type B) [VL: 6] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=16 delay=50 tp=43
+[06-29-2024] [01:33:47] aritz331_ failed Flight (Type B) [VL: 8] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=18 delay=50 tp=71
+[06-29-2024] [01:33:47] aritz331_ failed Flight (Type B) [VL: 10] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=22 delay=51 tp=75
+[06-29-2024] [01:33:48] aritz331_ failed Flight (Type B) [VL: 12] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=11 delay=50 tp=94
+[06-29-2024] [01:33:49] aritz331_ failed Flight (Type B) [VL: 14] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=12 delay=50 tp=116
+[06-29-2024] [01:33:51] aritz331_ failed Flight (Type B) [VL: 16] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=10 delay=50 tp=153
+[06-29-2024] [01:33:56] aritz331_ failed Flight (Type B) [VL: 18] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=14 delay=51 tp=191
+[06-29-2024] [01:33:57] aritz331_ failed Flight (Type B) [VL: 20] [Ping: 0] [TPS: 19.99] [Version: 1.20.3] [Client: Fabric] deltaY=0.41999998688697815 difference=0.49839998841285704 ticks=11 delay=50 tp=210
+[06-29-2024] [01:33:58] aritz331_ failed Flight (Type B) [VL: 22] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=13 delay=52 tp=232
+[06-29-2024] [01:34:01] aritz331_ failed Flight (Type B) [VL: 24] [Ping: 0] [TPS: 19.99] [Version: 1.20.3] [Client: Fabric] deltaY=0.41999998688697815 difference=0.49839998841285704 ticks=10 delay=50 tp=283
+[06-29-2024] [01:34:22] aritz331_ failed Flight (Type B) [VL: 26] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=40 delay=50 tp=361
+[06-29-2024] [01:34:22] aritz331_ failed Flight (Type B) [VL: 28] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=44 delay=50 tp=365
+[06-29-2024] [01:34:23] aritz331_ failed Flight (Type B) [VL: 30] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=48 delay=50 tp=369
+[06-29-2024] [01:34:53] aritz331_ failed Strafe (Type A) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] difference=0.018337253329064895 deltaXZ=0.26792532053793755
+[06-29-2024] [01:34:53] aritz331_ failed Strafe (Type A) [VL: 4] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] difference=0.12683027959753104 deltaXZ=0.2838322519411851
+[06-29-2024] [01:34:55] aritz331_ failed Flight (Type B) [VL: 2] [Ping: 0] [TPS: 19.99] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=16 delay=52 tp=321
+[06-29-2024] [01:34:55] aritz331_ failed Flight (Type B) [VL: 4] [Ping: 0] [TPS: 19.99] [Version: 1.20.3] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=20 delay=38 tp=325
+[06-29-2024] [01:35:11] aritz331_ failed Bad Packets (Type A) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] flying=false
+[06-29-2024] [01:35:11] aritz331_ failed Bad Packets (Type A) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] flying=false
+[06-29-2024] [01:35:11] aritz331_ failed Bad Packets (Type A) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] flying=false
+[06-29-2024] [01:35:21] aritz331_ failed Bad Packets (Type A) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] flying=false
+[06-29-2024] [01:35:21] aritz331_ failed Bad Packets (Type A) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] flying=false
+[06-29-2024] [01:35:22] aritz331_ failed Bad Packets (Type A) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] flying=false
+[06-29-2024] [01:35:42] aritz331_ failed Step (Type A) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=1.0
+[06-29-2024] [01:35:50] aritz331_ failed Step (Type A) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=1.0
+[06-29-2024] [01:35:58] aritz331_ failed Step (Type A) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=1.0
+[06-29-2024] [01:36:02] aritz331_ failed Step (Type A) [VL: 4] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=0.8787031594607981
+[06-29-2024] [01:36:25] aritz331_ failed VClip (Type A) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=-3.0 ticks=1
+[06-29-2024] [01:36:31] aritz331_ failed Step (Type A) [VL: 5] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=10.0
+[06-29-2024] [01:36:41] aritz331_ failed Step (Type A) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=10.0
+[06-29-2024] [01:36:46] aritz331_ failed Step (Type A) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Fabric] deltaY=10.0
