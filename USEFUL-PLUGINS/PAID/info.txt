@@ -8,3 +8,6 @@ downloaded from nullforums.net
 anarchy/exploit fix plugins:
 - https://github.com/xGinko/AnarchyExploitFixes (REQUIRES PacketEvents https://github.com/retrooper/packetevents)
 - LPX, Panilla, Vulcan
+
+other NON PAID:
+- Staff++ https://staffplusplus.org/
