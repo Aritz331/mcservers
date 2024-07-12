@@ -1,0 +1,48 @@
+interval: 300
+allow-silktouch: true
+alert:
+  copper:
+    vl: 30
+    enable: true
+  ds_copper:
+    vl: 30
+    enable: true
+  iron:
+    vl: 25
+    enable: true
+  ds_iron:
+    vl: 25
+    enable: true
+  gold:
+    vl: 20
+    enable: true
+  ds_gold:
+    vl: 15
+    enable: true
+  lapis:
+    vl: 20
+    enable: true
+  ds_lapis:
+    vl: 15
+    enable: true
+  redstone:
+    vl: 20
+    enable: true
+  ds_redstone:
+    vl: 15
+    enable: true
+  diamond:
+    vl: 5
+    enable: true
+  ds_diamond:
+    vl: 3
+    enable: true
+  emerald:
+    vl: 5
+    enable: true
+  ds_emerald:
+    vl: 3
+    enable: true
+  ancient_debris:
+    vl: 2
+    enable: true

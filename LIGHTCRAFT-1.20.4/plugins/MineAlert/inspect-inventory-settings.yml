@@ -1,0 +1,108 @@
+menu-title: '&f%player% &7Mine Statistics'
+menu-slots: 54
+inspect:
+  copper:
+    item-slot: 1
+    item-type: COPPER_ORE
+    item-name: '&7Copper Mined'
+    item-lore:
+    - '&fClick to see how much of the'
+    - '&fore the player mined!'
+  ds_copper:
+    item-slot: 2
+    item-type: DEEPSLATE_COPPER_ORE
+    item-name: '&7Deep Slate Copper Mined'
+    item-lore:
+    - '&fClick to see how much of the'
+    - '&fore the player mined!'
+  iron:
+    item-slot: 3
+    item-type: IRON_ORE
+    item-name: '&7Iron Mined'
+    item-lore:
+    - '&fClick to see how much of the'
+    - '&fore the player mined!'
+  ds_iron:
+    item-slot: 4
+    item-type: DEEPSLATE_IRON_ORE
+    item-name: '&7Deep Slate Iron Mined'
+    item-lore:
+    - '&fClick to see how much of the'
+    - '&fore the player mined!'
+  gold:
+    item-slot: 5
+    item-type: GOLD_ORE
+    item-name: '&7Gold Mined'
+    item-lore:
+    - '&fClick to see how much of the'
+    - '&fore the player mined!'
+  ds_gold:
+    item-slot: 6
+    item-type: DEEPSLATE_GOLD_ORE
+    item-name: '&7Deep Slate Gold Mined'
+    item-lore:
+    - '&fClick to see how much of the'
+    - '&fore the player mined!'
+  lapis:
+    item-slot: 7
+    item-type: LAPIS_ORE
+    item-name: '&7Lapis Mined'
+    item-lore:
+    - '&fClick to see how much of the'
+    - '&fore the player mined!'
+  ds_lapis:
+    item-slot: 10
+    item-type: DEEPSLATE_LAPIS_ORE
+    item-name: '&7Deep Slate Lapis Mined'
+    item-lore:
+    - '&fClick to see how much of the'
+    - '&fore the player mined!'
+  redstone:
+    item-slot: 11
+    item-type: REDSTONE_ORE
+    item-name: '&7Redstone Mined'
+    item-lore:
+    - '&fClick to see how much of the'
+    - '&fore the player mined!'
+  ds_redstone:
+    item-slot: 12
+    item-type: DEEPSLATE_REDSTONE_ORE
+    item-name: '&7Deep Slate Redstone Mined'
+    item-lore:
+    - '&fClick to see how much of the'
+    - '&fore the player mined!'
+  diamond:
+    item-slot: 13
+    item-type: DIAMOND_ORE
+    item-name: '&7Diamonds Mined'
+    item-lore:
+    - '&fClick to see how much of the'
+    - '&fore the player mined!'
+  ds_diamond:
+    item-slot: 14
+    item-type: DEEPSLATE_DIAMOND_ORE
+    item-name: '&7Deep Slate Diamonds Mined'
+    item-lore:
+    - '&fClick to see how much of the'
+    - '&fore the player mined!'
+  emerald:
+    item-slot: 15
+    item-type: EMERALD_ORE
+    item-name: '&7Emeralds Mined'
+    item-lore:
+    - '&fClick to see how much of the'
+    - '&fore the player mined!'
+  ds_emerald:
+    item-slot: 16
+    item-type: DEEPSLATE_EMERALD_ORE
+    item-name: '&7Deep Slate Emeralds Mined'
+    item-lore:
+    - '&fClick to see how much of the'
+    - '&fore the player mined!'
+  ancient_debris:
+    item-slot: 19
+    item-type: ANCIENT_DEBRIS
+    item-name: '&7Ancient Debris Mined'
+    item-lore:
+    - '&fClick to see how much of the'
+    - '&fore the player mined!'
