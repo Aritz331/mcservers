@@ -1,0 +1,1 @@
+serverlistplus server = independent server (for maintenance etc)
