@@ -1,10 +1,10 @@
-LastUpdated: 1720907121716
+LastUpdated: 1720908061655
 VotingPlugin:
   AutoCachePlaceholders: []
   AutoCacheUpdated: true
-  Version: 'git-Purpur-2176 (MC: 1.20.4)'
+  Version: '1.20.6-2233-0d6766e (MC: 1.20.6)'
 PluginVersions:
   VotingPlugin: 6.16.3
 Month: JULY
-PrevWeek: 28
-PrevDay: 13
+PrevWeek: 29
+PrevDay: 14

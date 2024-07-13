@@ -10,6 +10,7 @@
 
 verbose: false
 settings:
+  startup-commands: []
   limit-armor: true
   messages:
     cannot-ride-mob: <red>You cannot mount that mob
@@ -97,6 +98,10 @@ settings:
     max-joins-per-second: false
     kick-for-out-of-order-chat: true
   blocks:
+    magma-block:
+      reverse-bubble-column-flow: false
+    soul-sand:
+      reverse-bubble-column-flow: false
     barrel:
       rows: 3
     ender_chest:
@@ -187,7 +192,7 @@ settings:
   bee-count-payload: false
   tps-catchup: true
   clamp-attributes: true
-config-version: 34
+config-version: 35
 world-settings:
   default:
     settings:
@@ -638,6 +643,19 @@ world-settings:
       enchantment-table:
         lapis-persists: false
     mobs:
+      armadillo:
+        ridable: false
+        ridable-in-water: true
+        controllable: true
+        attributes:
+          max_health: 12.0
+        breeding-delay-ticks: 6000
+      bogged:
+        ridable: false
+        ridable-in-water: true
+        controllable: true
+        attributes:
+          max_health: 16.0
       trader_llama:
         ridable: false
         ridable-in-water: false
@@ -1336,6 +1354,7 @@ world-settings:
         takes-damage-from-water: false
         always-drop-exp: false
       ravager:
+        avoid-rabbits: false
         ridable: false
         ridable-in-water: false
         controllable: true
@@ -1670,7 +1689,6 @@ world-settings:
       milk-cures-bad-omen: true
       milk-clears-beneficial-effects: true
       note-block-ignore-above: false
-      persistent-tileentity-display-names-and-lore: false
       persistent-droppable-entity-display-names: true
       projectiles-bypass-mob-griefing: false
       tick-fluids: true
@@ -1718,3 +1736,5 @@ world-settings:
           block-speed:
             grass_block: 0.3
             stone: 0.5
+      persistent-tileentity-lore: false
+      persistent-tileentity-display-name: true
