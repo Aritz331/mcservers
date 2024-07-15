@@ -1,0 +1,45 @@
+# #######################################################################################################################
+#     ___       __       ___  __
+#    / _ |__ __/ /____  / _ \/ /_ _____ _
+#   / __ / // / __/ _ \/ ___/ / // / _ `/
+#  /_/ |_\_,_/\__/\___/_/  /_/\_,_/\_, /
+#                                 /___/ SSH-Config
+# Thank you for using AutoPlug!
+# You can find detailed installation instructions here: https://autoplug.one/installer
+# If there are any questions or you just want chat, join our Discord: https://discord.gg/GGNmtCC
+#  
+# #######################################################################################################################
+# Uses apache sshd 2.13.0 internally, make sure it doesn't contain vulnerabilities before using here: https://mvnrepository.com/artifact/org.apache.sshd/sshd-core
+ssh: 
+  # Enables a SSH console for remote access to AutoPlug.
+  # You can connect to it via any SSH client like Putty, a custom script, or the built-in SSH client in Windows, Linux distros, MacOS, etc.
+  enabled: false
+  # The port the SSH console listens on.
+  # The default port is 22. Change it if you have a different port setup in your network, are hosting one or more other SSH-based services on the same port, or are otherwise using the default port for something else.
+  port: 22
+  # Select the authentication method for the SSH console.
+  # Available options: 'user-pass-only', 'key-only', 'user-pass-key'.
+  # user-pass-only: Requires a username and password to connect. Requires the username and password fields below.
+  # key-only: Requires a public key to connect. Requires the allowed-keys-path field below.
+  # user-pass-key: Requires either a username and password or a public key to connect. Requires all fields below.
+  auth-method: key-only
+  # The .txt file containing the public keys that are allowed to connect to the SSH console.
+  # The file must contain one public key per line.
+  # The file must be in the OpenSSH format.
+  # Exaple:
+  # ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDf6... user@host
+  # Create keys with 'ssh-keygen -t rsa -b 4096' and add them to the file.
+  # The genereated file can be found in the .ssh directory of the user that created the key, unless a different path was specified.
+  # The generated file will be a ____.pub file, which contains the public key.
+  allowed-keys-path: 
+  # The private key used by the server to authenticate itself to the SSH console.
+  # The file must be in the OpenSSH format.
+  # Create keys with 'ssh-keygen -t rsa -b 4096' and add them to the file.
+  # The genereated file can be found in the .ssh directory of the user that created the key, unless a different path was specified.
+  # The generated file will be a file with no extension, which contains the private key.
+  server-private-key: 
+  # The username required to connect to the SSH console.
+  username: autoplug
+  # The password is not encrypted and can be seen in plain text in this file.
+  # It is recommended to change it to a secure password.
+  password: 

@@ -1,0 +1,699 @@
+# #######################################################################################################################
+#     ___       __       ___  __
+#    / _ |__ __/ /____  / _ \/ /_ _____ _
+#   / __ / // / __/ _ \/ ___/ / // / _ `/
+#  /_/ |_\_,_/\__/\___/_/  /_/\_,_/\_, /
+#                                 /___/ Plugins-Config
+# Thank you for using AutoPlug!
+# You can find detailed installation instructions here: https://autoplug.one/installer
+# If there are any questions or you just want chat, join our Discord: https://discord.gg/GGNmtCC
+# 
+# #######################################################################################################################
+# This file contains detailed information about your installed plugins. It is fetched from each plugins 'plugin.yml' file (located inside their jars).
+# Example configuration for the EssentialsX plugin with each setting explained:
+#   Essentials: 
+#     exclude: false #### If a name/author/version is missing, the plugin gets excluded automatically
+#      version: 1434 #### Gets fetched from 'plugin.yml' and refreshed after each check
+#      latest-version: 1434 #### Gets refreshed after each check
+#      author: Zenexer #### Gets fetched from 'plugin.yml' and refreshed after each check #### If multiple names are provided, only the first author will be used.
+#     #### Note that only one id is necessary, provided both for demonstration purposes.
+#     spigot-id: 871 #### Gets found by AutoPlugs' smart search algorithm and set in a check or can be set by you #### You can find it directly in the url. Example URLs id is 78414. Example URL: https://www.spigotmc.org/resources/autoplug-automatic-plugin-updater.78414/
+#      bukkit-id: 93271 #### Gets found by AutoPlugs' smart search algorithm and set in a check or can be set by you #### Is the 'Project-ID' and can be found on the plugins bukkit site inside of the 'About' box at the right.
+#      custom-check-url: #### Must link to a json file which contains a list/array of plugin versions where each item/object contains specific keys for version ("version_number", "version") and download URL ("download_url", "download", "file", "download_file").
+#     custom-download-url: #### Must be a static url to the plugins latest jar file.
+#     ignore-content-type: false #### When downloading a file the file host is asked for the file-type which must be .jar, when true this check is not performed.
+#     force-update: false #### If true, downloads the update every time even if its already on the latest version.
+#     alternatives: #### below both alternatives are used for demonstration purposes, make sure to use only one)
+#       github: 
+#         repo-name: EssentialsX/Essentials #### Provided by you #### Can be found in its url: https://github.com/EssentialsX/Essentials
+#         asset-name: EssentialsX #### Provided by you #### Wrong: 'EssentialsX-1.7.23.jar', we discard the version information.
+#       jenkins: 
+#         project-url: https://ci.ender.zone/job/EssentialsX/ #### Provided by you ### Note that each plugins jenkins url looks different.
+#         artifact-name: EssentialsX #### Provided by you #### Wrong: 'EssentialsX-1.7.23.jar', we discard the version information.
+#         build-id: 1434
+#  #### The currently installed build identifier. Don't touch this.The configuration for uninstalled plugins wont be removed from this file, but they are automatically excluded from future checks (the exclude value is ignored).
+# Note for plugin devs: You can add your spigot/bukkit-id to your plugin.yml file. For more information visit https://autoplug.one/faq/2
+plugins: 
+  general: 
+    # Keep the plugins entry in this file even after its removal/uninstallation?
+    keep-removed: true
+  AdvancedServerList: 
+    exclude: false
+    version: 4.12.0
+    latest-version: 
+    author: Andre_601
+    spigot-id: 0
+    modrinth-id: 
+    bukkit-id: 0
+    ignore-content-type: false
+    force-update: false
+    custom-check-url: 
+    custom-download-url: 
+    alternatives: 
+      github: 
+        repo-name: 
+        asset-name: 
+      jenkins: 
+        project-url: 
+        artifact-name: 
+        build-id: 0
+  AntiCombatLog: 
+    exclude: true
+    version: 2.6.1
+    latest-version: 
+    author: 
+    spigot-id: 0
+    modrinth-id: 
+    bukkit-id: 0
+    ignore-content-type: false
+    force-update: false
+    custom-check-url: 
+    custom-download-url: 
+    alternatives: 
+      github: 
+        repo-name: 
+        asset-name: 
+      jenkins: 
+        project-url: 
+        artifact-name: 
+        build-id: 0
+  AuctionHouse: 
+    exclude: false
+    version: 3.7.1
+    latest-version: 
+    author: klugemonkey
+    spigot-id: 0
+    modrinth-id: 
+    bukkit-id: 0
+    ignore-content-type: false
+    force-update: false
+    custom-check-url: 
+    custom-download-url: 
+    alternatives: 
+      github: 
+        repo-name: 
+        asset-name: 
+      jenkins: 
+        project-url: 
+        artifact-name: 
+        build-id: 0
+  BetterMessages: 
+    exclude: false
+    version: 3.3.2
+    latest-version: 
+    author: JustDoom
+    spigot-id: 0
+    modrinth-id: 
+    bukkit-id: 0
+    ignore-content-type: false
+    force-update: false
+    custom-check-url: 
+    custom-download-url: 
+    alternatives: 
+      github: 
+        repo-name: 
+        asset-name: 
+      jenkins: 
+        project-url: 
+        artifact-name: 
+        build-id: 0
+  BetterPrefix: 
+    exclude: false
+    version: 5.4
+    latest-version: 
+    author: Tomisanhues2
+    spigot-id: 0
+    modrinth-id: 
+    bukkit-id: 0
+    ignore-content-type: false
+    force-update: false
+    custom-check-url: 
+    custom-download-url: 
+    alternatives: 
+      github: 
+        repo-name: 
+        asset-name: 
+      jenkins: 
+        project-url: 
+        artifact-name: 
+        build-id: 0
+  BetterRTP: 
+    exclude: false
+    version: 3.6.13
+    latest-version: 
+    author: SuperRonanCraft
+    spigot-id: 0
+    modrinth-id: 
+    bukkit-id: 0
+    ignore-content-type: false
+    force-update: false
+    custom-check-url: 
+    custom-download-url: 
+    alternatives: 
+      github: 
+        repo-name: 
+        asset-name: 
+      jenkins: 
+        project-url: 
+        artifact-name: 
+        build-id: 0
+  CoreProtect: 
+    exclude: false
+    version: 22.4
+    latest-version: 
+    author: Intelli
+    spigot-id: 0
+    modrinth-id: 
+    bukkit-id: 0
+    ignore-content-type: false
+    force-update: false
+    custom-check-url: 
+    custom-download-url: 
+    alternatives: 
+      github: 
+        repo-name: 
+        asset-name: 
+      jenkins: 
+        project-url: 
+        artifact-name: 
+        build-id: 0
+  EconomyShopGUI: 
+    exclude: false
+    version: 6.7.6
+    latest-version: 
+    author: Gypopo
+    spigot-id: 0
+    modrinth-id: 
+    bukkit-id: 0
+    ignore-content-type: false
+    force-update: false
+    custom-check-url: 
+    custom-download-url: 
+    alternatives: 
+      github: 
+        repo-name: 
+        asset-name: 
+      jenkins: 
+        project-url: 
+        artifact-name: 
+        build-id: 0
+  FastAsyncWorldEdit: 
+    exclude: false
+    version: 2.10.0
+    latest-version: 
+    author: Empire92
+    spigot-id: 0
+    modrinth-id: 
+    bukkit-id: 0
+    ignore-content-type: false
+    force-update: false
+    custom-check-url: 
+    custom-download-url: 
+    alternatives: 
+      github: 
+        repo-name: 
+        asset-name: 
+      jenkins: 
+        project-url: 
+        artifact-name: 
+        build-id: 0
+  GrimAC: 
+    exclude: false
+    version: 2.3.65
+    latest-version: 
+    author: GrimAC
+    spigot-id: 0
+    modrinth-id: 
+    bukkit-id: 0
+    ignore-content-type: false
+    force-update: false
+    custom-check-url: 
+    custom-download-url: 
+    alternatives: 
+      github: 
+        repo-name: 
+        asset-name: 
+      jenkins: 
+        project-url: 
+        artifact-name: 
+        build-id: 0
+  InvSeePlusPlus: 
+    exclude: false
+    version: 0.27.0
+    latest-version: 
+    author: Jannyboy11
+    spigot-id: 0
+    modrinth-id: 
+    bukkit-id: 0
+    ignore-content-type: false
+    force-update: false
+    custom-check-url: 
+    custom-download-url: 
+    alternatives: 
+      github: 
+        repo-name: 
+        asset-name: 
+      jenkins: 
+        project-url: 
+        artifact-name: 
+        build-id: 0
+  lightEconomy: 
+    exclude: false
+    version: 5.5.4
+    latest-version: 
+    author: lightPlugins
+    spigot-id: 0
+    modrinth-id: 
+    bukkit-id: 0
+    ignore-content-type: false
+    force-update: false
+    custom-check-url: 
+    custom-download-url: 
+    alternatives: 
+      github: 
+        repo-name: 
+        asset-name: 
+      jenkins: 
+        project-url: 
+        artifact-name: 
+        build-id: 0
+  LoginSecurity: 
+    exclude: false
+    version: 3.3.0
+    latest-version: 
+    author: lenis0012
+    spigot-id: 0
+    modrinth-id: 
+    bukkit-id: 0
+    ignore-content-type: false
+    force-update: false
+    custom-check-url: 
+    custom-download-url: 
+    alternatives: 
+      github: 
+        repo-name: 
+        asset-name: 
+      jenkins: 
+        project-url: 
+        artifact-name: 
+        build-id: 0
+  LuckPerms: 
+    exclude: false
+    version: 5.4.131
+    latest-version: 
+    author: Luck
+    spigot-id: 0
+    modrinth-id: 
+    bukkit-id: 0
+    ignore-content-type: false
+    force-update: false
+    custom-check-url: 
+    custom-download-url: 
+    alternatives: 
+      github: 
+        repo-name: 
+        asset-name: 
+      jenkins: 
+        project-url: 
+        artifact-name: 
+        build-id: 0
+  Multiverse-Core: 
+    exclude: false
+    version: 4.3.1861
+    latest-version: 
+    author: dumptruckman
+    spigot-id: 0
+    modrinth-id: 
+    bukkit-id: 0
+    ignore-content-type: false
+    force-update: false
+    custom-check-url: 
+    custom-download-url: 
+    alternatives: 
+      github: 
+        repo-name: 
+        asset-name: 
+      jenkins: 
+        project-url: 
+        artifact-name: 
+        build-id: 0
+  Orebfuscator: 
+    exclude: false
+    version: 5.5.0
+    latest-version: 
+    author: Ingrim4
+    spigot-id: 0
+    modrinth-id: 
+    bukkit-id: 0
+    ignore-content-type: false
+    force-update: false
+    custom-check-url: 
+    custom-download-url: 
+    alternatives: 
+      github: 
+        repo-name: 
+        asset-name: 
+      jenkins: 
+        project-url: 
+        artifact-name: 
+        build-id: 0
+  PlaceholderAPI: 
+    exclude: false
+    version: 2.11.6
+    latest-version: 
+    author: HelpChat
+    spigot-id: 0
+    modrinth-id: 
+    bukkit-id: 0
+    ignore-content-type: false
+    force-update: false
+    custom-check-url: 
+    custom-download-url: 
+    alternatives: 
+      github: 
+        repo-name: 
+        asset-name: 
+      jenkins: 
+        project-url: 
+        artifact-name: 
+        build-id: 0
+  PluginHiderPlus: 
+    exclude: false
+    version: 5.2
+    latest-version: 
+    author: MikyPro_
+    spigot-id: 0
+    modrinth-id: 
+    bukkit-id: 0
+    ignore-content-type: false
+    force-update: false
+    custom-check-url: 
+    custom-download-url: 
+    alternatives: 
+      github: 
+        repo-name: 
+        asset-name: 
+      jenkins: 
+        project-url: 
+        artifact-name: 
+        build-id: 0
+  PluginPortal: 
+    exclude: false
+    version: 2.0.3
+    latest-version: 
+    author: Flyte
+    spigot-id: 0
+    modrinth-id: 
+    bukkit-id: 0
+    ignore-content-type: false
+    force-update: false
+    custom-check-url: 
+    custom-download-url: 
+    alternatives: 
+      github: 
+        repo-name: 
+        asset-name: 
+      jenkins: 
+        project-url: 
+        artifact-name: 
+        build-id: 0
+  PremiumVanish: 
+    exclude: false
+    version: 2.9.10
+    latest-version: 
+    author: MyzelYam
+    spigot-id: 0
+    modrinth-id: 
+    bukkit-id: 0
+    ignore-content-type: false
+    force-update: false
+    custom-check-url: 
+    custom-download-url: 
+    alternatives: 
+      github: 
+        repo-name: 
+        asset-name: 
+      jenkins: 
+        project-url: 
+        artifact-name: 
+        build-id: 0
+  ProtocolLib: 
+    exclude: false
+    version: 5.3.0723
+    latest-version: 
+    author: dmulloy2
+    spigot-id: 0
+    modrinth-id: 
+    bukkit-id: 0
+    ignore-content-type: false
+    force-update: false
+    custom-check-url: 
+    custom-download-url: 
+    alternatives: 
+      github: 
+        repo-name: 
+        asset-name: 
+      jenkins: 
+        project-url: 
+        artifact-name: 
+        build-id: 0
+  Sit: 
+    exclude: false
+    version: 1.5
+    latest-version: 
+    author: UsainSrht
+    spigot-id: 0
+    modrinth-id: 
+    bukkit-id: 0
+    ignore-content-type: false
+    force-update: false
+    custom-check-url: 
+    custom-download-url: 
+    alternatives: 
+      github: 
+        repo-name: 
+        asset-name: 
+      jenkins: 
+        project-url: 
+        artifact-name: 
+        build-id: 0
+  StaffPlusPlus: 
+    exclude: false
+    version: 1.20.8
+    latest-version: 
+    author: Shortninja
+    spigot-id: 0
+    modrinth-id: 
+    bukkit-id: 0
+    ignore-content-type: false
+    force-update: false
+    custom-check-url: 
+    custom-download-url: 
+    alternatives: 
+      github: 
+        repo-name: 
+        asset-name: 
+      jenkins: 
+        project-url: 
+        artifact-name: 
+        build-id: 0
+  TAB: 
+    exclude: false
+    version: 4.1.6
+    latest-version: 
+    author: NEZNAMY
+    spigot-id: 0
+    modrinth-id: 
+    bukkit-id: 0
+    ignore-content-type: false
+    force-update: false
+    custom-check-url: 
+    custom-download-url: 
+    alternatives: 
+      github: 
+        repo-name: 
+        asset-name: 
+      jenkins: 
+        project-url: 
+        artifact-name: 
+        build-id: 0
+  TabTPS: 
+    exclude: false
+    version: 1.3.24
+    latest-version: 
+    author: jmp
+    spigot-id: 0
+    modrinth-id: 
+    bukkit-id: 0
+    ignore-content-type: false
+    force-update: false
+    custom-check-url: 
+    custom-download-url: 
+    alternatives: 
+      github: 
+        repo-name: 
+        asset-name: 
+      jenkins: 
+        project-url: 
+        artifact-name: 
+        build-id: 0
+  UltimateHomes: 
+    exclude: false
+    version: 3.0
+    latest-version: 
+    author: kixmc
+    spigot-id: 0
+    modrinth-id: 
+    bukkit-id: 0
+    ignore-content-type: false
+    force-update: false
+    custom-check-url: 
+    custom-download-url: 
+    alternatives: 
+      github: 
+        repo-name: 
+        asset-name: 
+      jenkins: 
+        project-url: 
+        artifact-name: 
+        build-id: 0
+  Vault: 
+    exclude: false
+    version: 1.7.3131
+    latest-version: 
+    author: cereal
+    spigot-id: 0
+    modrinth-id: 
+    bukkit-id: 0
+    ignore-content-type: false
+    force-update: false
+    custom-check-url: 
+    custom-download-url: 
+    alternatives: 
+      github: 
+        repo-name: 
+        asset-name: 
+      jenkins: 
+        project-url: 
+        artifact-name: 
+        build-id: 0
+  ViaBackwards: 
+    exclude: false
+    version: 5.0.2
+    latest-version: 
+    author: Matsv
+    spigot-id: 0
+    modrinth-id: 
+    bukkit-id: 0
+    ignore-content-type: false
+    force-update: false
+    custom-check-url: 
+    custom-download-url: 
+    alternatives: 
+      github: 
+        repo-name: 
+        asset-name: 
+      jenkins: 
+        project-url: 
+        artifact-name: 
+        build-id: 0
+  ViaRewind: 
+    exclude: false
+    version: 4.0.2
+    latest-version: 
+    author: FlorianMichaelEnZaXD
+    spigot-id: 0
+    modrinth-id: 
+    bukkit-id: 0
+    ignore-content-type: false
+    force-update: false
+    custom-check-url: 
+    custom-download-url: 
+    alternatives: 
+      github: 
+        repo-name: 
+        asset-name: 
+      jenkins: 
+        project-url: 
+        artifact-name: 
+        build-id: 0
+  ViaVersion: 
+    exclude: false
+    version: 5.0.2
+    latest-version: 
+    author: _MylesC
+    spigot-id: 0
+    modrinth-id: 
+    bukkit-id: 0
+    ignore-content-type: false
+    force-update: false
+    custom-check-url: 
+    custom-download-url: 
+    alternatives: 
+      github: 
+        repo-name: 
+        asset-name: 
+      jenkins: 
+        project-url: 
+        artifact-name: 
+        build-id: 0
+  VotifierPlus: 
+    exclude: false
+    version: 1.3
+    latest-version: 
+    author: BenCodez
+    spigot-id: 0
+    modrinth-id: 
+    bukkit-id: 0
+    ignore-content-type: false
+    force-update: false
+    custom-check-url: 
+    custom-download-url: 
+    alternatives: 
+      github: 
+        repo-name: 
+        asset-name: 
+      jenkins: 
+        project-url: 
+        artifact-name: 
+        build-id: 0
+  VotingPlugin: 
+    exclude: false
+    version: 6.16.3
+    latest-version: 
+    author: BenCodez
+    spigot-id: 0
+    modrinth-id: 
+    bukkit-id: 0
+    ignore-content-type: false
+    force-update: false
+    custom-check-url: 
+    custom-download-url: 
+    alternatives: 
+      github: 
+        repo-name: 
+        asset-name: 
+      jenkins: 
+        project-url: 
+        artifact-name: 
+        build-id: 0
+  Chunky: 
+    exclude: false
+    version: 1.4.10
+    latest-version: 
+    author: pop4959
+    spigot-id: 0
+    modrinth-id: 
+    bukkit-id: 0
+    ignore-content-type: false
+    force-update: false
+    custom-check-url: 
+    custom-download-url: 
+    alternatives: 
+      github: 
+        repo-name: 
+        asset-name: 
+      jenkins: 
+        project-url: 
+        artifact-name: 
+        build-id: 0

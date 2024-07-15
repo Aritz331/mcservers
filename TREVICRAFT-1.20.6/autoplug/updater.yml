@@ -1,0 +1,140 @@
+# #######################################################################################################################
+#     ___       __       ___  __
+#    / _ |__ __/ /____  / _ \/ /_ _____ _
+#   / __ / // / __/ _ \/ ___/ / // / _ `/
+#  /_/ |_\_,_/\__/\___/_/  /_/\_,_/\_, /
+#                                 /___/ Updater-Config
+# Thank you for using AutoPlug!
+# You can find detailed installation instructions here: https://autoplug.one/installer
+# If there are any questions or you just want chat, join our Discord: https://discord.gg/GGNmtCC
+# 
+# #######################################################################################################################
+# All the updaters below search for updates before your server gets started.
+# Available profiles for all updaters are: NOTIFY, MANUAL and AUTOMATIC.
+# 
+# NOTIFY:        	Only notifies when updates are available.
+# MANUAL:        	Only downloads the updates to /autoplug/downloads.
+# AUTOMATIC:     	Downloads and installs updates automatically.
+updater: 
+
+  java-updater: 
+    enable: false
+    # If you selected the AUTOMATIC profile the 'java-path' value inside 'autoplug-general-config.yml' gets ignored.
+    # Note that this won't update your already existing Java installation, but instead create a new one inside of /autoplug/system/jre, which then will be used to run your server.
+    profile: AUTOMATIC
+    # The major Java version. List of versions available: https://api.adoptium.net/v3/info/available_releases
+    # Note: If you change this, also set the "build-id" value to 0, to guarantee correct update-detection.
+    version: 17
+    # If you change the Java version, remember to set this value to 0, to ensure proper update-detection.
+    # Otherwise don't touch this. It gets replaced after every successful update automatically.
+    build-id: 0
+    # Only enable if you plan to give your server more than 57gb of ram, otherwise not recommended.
+    large-heap: false
+
+  server-updater: 
+    enable: true
+    profile: AUTOMATIC
+    # Select your favorite server software. Enter the name below. Supported software:
+    # - Minecraft (paper, waterfall, travertine, velocity, purpur, fabric,spigot, bungeecord, patina, pufferfish, mirai, pearl, windspigot)
+    # - Any Steam game (enter the app-id below, go to https://steamdb.info/ and search for: "<game-name> server" to find the app-id)
+    # Note: If you change this, also reset the "build-id" to 0 to guarantee correct update-detection.
+    software: purpur
+    # If left empty, taken from general.yml, if also empty, taken from server jar.
+    # A list of supported versions can be found in the links below:
+    # - Minecraft versions: https://papermc.io/api/v2/projects/paper | https://papermc.io/api/v2/projects/waterfall | https://papermc.io/api/v2/projects/travertine | https://papermc.io/api/v2/projects/velocity | https://purpur.pl3x.net/downloads | https://fabricmc.net/use/installer
+    # Enter "latest" as version to always fetch the latest release (major + minor).
+    # Pufferfish+ (and its purpur variant) are also supported by appending -plus and/or -purpur to the version.
+    # Note: Only update to a newer version if you are sure that all your essential plugins support that version.
+    # Note: Remember that worlds cannot be converted to older versions.
+    # Note: If you change this, also reset the "build-id" to 0 to guarantee correct update-detection.
+    version: 1.20.6
+    # Some games require you to be logged in. Add your username and password, separated by a space below (<username> <password>).
+    # Note that SteamGuard must be disabled.
+    steam-cmd-login: 
+    # Each release/update has its unique build-id. First release was 1, the second 2 and so on...
+    # If you change your server software or mc-version, remember to change this to 0, to ensure proper update-detection.
+    # Otherwise don't touch this. It will gets updated after every successful update automatically.
+    build-id: 0
+    # Its not recommended to enable this.
+    skip-hash-check: false
+    alternatives: 
+      github: 
+        # The github repository name can be found in its url or on its page. Example: EssentialsX/Essentials (full url: https://github.com/EssentialsX/Essentials)
+        repo-name: 
+        # The name of the release asset to download, without version info. For example 'EssentialsX'.
+        asset-name: 
+        # Remember to set this to 0, if you changed the repo-name. Otherwise don't touch it.
+        version: 0
+      jenkins: 
+        # The url of the jenkins project. For example: https://ci.ender.zone/job/EssentialsX/
+        project-url: 
+        # The name of the artifact to download, without version info. For example 'EssentialsX'.
+        artifact-name: 
+        # Remember to set this to 0, if you changed the project-url or artifact-name. Otherwise don't touch it.
+        build-id: 0
+
+  plugins-updater: 
+    # Updates your plugins and the results are sent to AutoPlug-Web. You can configure this in the web-config.
+    # Note that there is a web-cool-down (that cannot be changed) of a few hours, to prevent spamming of results to AutoPlug-Web.
+    enable: true
+    profile: AUTOMATIC
+    path: ./plugins
+    # The Minecraft version to check and download plugins for.
+    # If left empty, taken from server-updater.version above, if also empty, taken from general.yml, if also empty, taken from server jar.
+    # Currently only relevant for Modrinth plugins.
+    version: 
+    # Asynchronously checks for updates.
+    # Normally this should be faster than checking for updates synchronously, thus it should be enabled.
+    # The only downside of this is that your log file gets a bit messy.
+    async: true
+    web-database: 
+      # Uses the AutoPlug-Web database to fill in missing plugin information.
+      # This option is only available for premium servers.
+      # Note that a server-key must be provided for this to work.
+      enable: true
+      # The minimum amount of usages in servers a piece of information has to have to be used and deemed reliable.
+      min-usages: 50
+
+  mods-updater: 
+    # Updates your mods and the results are sent to AutoPlug-Web. You can configure this in the web-config.
+    # Note that there is a web-cool-down (that cannot be changed) of a few hours, to prevent spamming of results to AutoPlug-Web.
+    enable: false
+    profile: AUTOMATIC
+    path: ./mods
+    # The Minecraft version to check and download mods for.
+    # If left empty, taken from server-updater.version above, if also empty, taken from general.yml, if also empty, taken from server jar.
+    version: 
+    # Asynchronously checks for updates.
+    # Normally this should be faster than checking for updates synchronously, thus it should be enabled.
+    # The only downside of this is that your log file gets a bit messy.
+    async: true
+    # Only relevant for determining if a curseforge mod release is forge or fabric.
+    # If enabled additionally checks the mod name to see if it contains fabric or forge.
+    check-name-for-mod-loader: false
+
+  # Cool-down time in minutes to the next updater tasks execution (any updater).
+  # Prevents unnecessary spam of updating/update checking tasks and thus shortens the server startup time.
+  # Useful when testing plugins/configs and having to restart the server often in a short amount of time.
+  # You can force-check stuff with the '.check' command.
+  # Set to 0 to disable.
+  global-cool-down: 60
+  # If enabled runs an additional thread that checks for updates regularly.
+  # Not recommended to enable, unless you are running AutoPlug as a background service.
+  # When running AutoPlug as a server-wrapper then update checks already are
+  # done automatically at server-restarts via the daily or custom server-restarter (see restarter.yml for more info).
+  global-recurring-checks: 
+    enable: false
+    # Intervall in hours between each update check.
+    # Note that the value cannot be below 12h. This is done to protect the underlying online services from spam.
+    intervall: 12
+
+  self-updater: 
+    # AutoPlug is able to update itself automatically.
+    # Its strongly recommended to have this feature enabled,
+    # to benefit from new features, bug fixes and security enhancements.
+    # Linux users, using screen read this: https://github.com/Osiris-Team/AutoPlug-Client/issues/75
+    enable: true
+    profile: AUTOMATIC
+    # Choose between 'stable' and 'beta' builds.
+    # Stable builds are recommended.
+    build: stable

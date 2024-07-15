@@ -36,6 +36,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2024-06-29 20:11:52 +0200",
+      "minecraft:enderman": "2024-07-14 23:22:26 +0200",
       "minecraft:spider": "2024-07-13 22:14:57 +0200",
       "minecraft:zombie": "2024-06-29 19:38:05 +0200"
     },
@@ -474,5 +475,5 @@
     },
     "done": true
   },
-  "DataVersion": 3700
+  "DataVersion": 3839
 }

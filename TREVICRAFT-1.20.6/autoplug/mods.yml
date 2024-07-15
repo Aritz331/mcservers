@@ -1,0 +1,36 @@
+# #######################################################################################################################
+#     ___       __       ___  __
+#    / _ |__ __/ /____  / _ \/ /_ _____ _
+#   / __ / // / __/ _ \/ ___/ / // / _ `/
+#  /_/ |_\_,_/\__/\___/_/  /_/\_,_/\_, /
+#                                 /___/ Mods-Config
+# Thank you for using AutoPlug!
+# You can find detailed installation instructions here: https://autoplug.one/installer
+# If there are any questions or you just want chat, join our Discord: https://discord.gg/GGNmtCC
+# 
+# #######################################################################################################################
+# This file contains detailed information about your installed mods. It is fetched from each mods config file (located inside their jars).
+# The data gets refreshed before performing an update-check. To exclude a mod from the check set exclude=true.
+# If a name/author/version is missing, the mod gets excluded automatically.
+# If there are mods that weren't found by the search-algorithm, you can add an id (spigot or bukkit) and a custom link (optional & must be a static link to the latest mod jar).
+# modrinth-id: Is the 'Project-ID' and can be found on the mods modrinth site inside of the 'About' box, under 'Technical Information' at the bottom left.
+# curseforge-id: Is also called 'Project-ID' and can be found on the mods curseforge site inside of the 'About' box at the right.
+# ignore-content-type: If true, does not check if the downloaded file is of type jar or zip, and downloads it anyway.
+# force-latest: If true, does not search for updates compatible with this Minecraft version and simply picks the latest release.
+# force-update: If true, downloads the update every time even if its already on the latest version.
+# custom-check-url: #### Must link to a json file which contains a list/array of plugin versions where each item/object contains specific keys for version ("version_number", "version") and download URL ("download_url", "download", "file", "download_file").
+# custom-download-url: must be a static url to the mods latest jar file.
+# alternatives.github.repo-name: Example: 'EssentialsX/Essentials' (can be found in its url: https://github.com/EssentialsX/Essentials)
+# alternatives.github.asset-name: Example: 'EssentialsX' (wrong: 'EssentialsX-1.7.23.jar', we discard the version info).
+# alternatives.jenkins.project-url: Example: 'https://ci.ender.zone/job/EssentialsX/'
+# alternatives.jenkins.artifact-name: Example: 'EssentialsX' (wrong: 'EssentialsX-1.7.23.jar', we discard the version info).
+# alternatives.jenkins.build-id: The currently installed build identifier. Don't touch this.
+# If a modrinth-id is not given, AutoPlug will try and find the matching id by using its unique search-algorithm (if it succeeds the modrinth-id gets set, else it stays 0).
+# If both (bukkit and modrinth) ids are provided, the modrinth-id will be used.
+# The configuration for uninstalled mods wont be removed from this file, but they are automatically excluded from future checks (the exclude value is ignored).
+# If multiple authors are provided, only the first author will be used by the search-algorithm.
+# Note: Remember, that the values for exclude, version and author get overwritten if new data is available.
+mods: 
+  general: 
+    # Keep the mods entry in this file even after its removal/uninstallation?
+    keep-removed: true

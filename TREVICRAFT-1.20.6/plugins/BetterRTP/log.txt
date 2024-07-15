@@ -1,19 +1,22 @@
-2024-07-13 23:52:23 [INFO]: Loading Overrides...
-2024-07-13 23:52:23 [INFO]: Loading World Types...
-2024-07-13 23:52:23 [INFO]: - World Type for 'world' set to 'NORMAL'
-2024-07-13 23:52:23 [INFO]: - World Type for 'world_nether' set to 'NETHER'
-2024-07-13 23:52:23 [INFO]: - World Type for 'world_the_end' set to 'NORMAL'
-2024-07-13 23:52:23 [INFO]: Loading Defaults...
-2024-07-13 23:52:23 [INFO]: Loading Custom Worlds...
-2024-07-13 23:52:23 [INFO]: [WARN] - Custom World 'custom_world_1' was not registered because world does NOT exist
-2024-07-13 23:52:23 [INFO]: [WARN] - Custom World 'other_custom_world' was not registered because world does NOT exist
-2024-07-13 23:52:23 [SEVERE]: The particle 'EXPLOSION_NORMAL' created a fatal error when loading particles! Your MC version isn't supported!
-2024-07-13 23:52:24 [INFO]: Database COOLDOWN:world configured and loaded!
-2024-07-13 23:52:24 [INFO]: Database PLAYERS:Players configured and loaded!
-2024-07-13 23:52:24 [INFO]: Database QUEUE:Queue configured and loaded!
-2024-07-13 23:52:24 [INFO]: Database CHUNK_DATA:ChunkData configured and loaded!
-2024-07-13 23:52:24 [INFO]: Database COOLDOWN:world_nether configured and loaded!
-2024-07-13 23:52:24 [INFO]: Database COOLDOWN:world_the_end configured and loaded!
-2024-07-13 23:52:24 [INFO]: Attempting to queue up some more safe locations...
-2024-07-13 23:52:25 [INFO]: Queueing paused, max queue limit reached!
-2024-07-14 00:01:00 [INFO]: Disabling BetterRTP v3.6.13
+2024-07-15 00:06:16 [INFO]: Loading Overrides...
+2024-07-15 00:06:16 [INFO]: Loading World Types...
+2024-07-15 00:06:16 [INFO]: - World Type for 'world' set to 'NORMAL'
+2024-07-15 00:06:16 [INFO]: - World Type for 'world_nether' set to 'NETHER'
+2024-07-15 00:06:16 [INFO]: - World Type for 'world_the_end' set to 'NORMAL'
+2024-07-15 00:06:16 [INFO]: Loading Defaults...
+2024-07-15 00:06:16 [INFO]: Loading Custom Worlds...
+2024-07-15 00:06:16 [INFO]: [WARN] - Custom World 'custom_world_1' was not registered because world does NOT exist
+2024-07-15 00:06:16 [INFO]: [WARN] - Custom World 'other_custom_world' was not registered because world does NOT exist
+2024-07-15 00:06:16 [SEVERE]: The particle 'EXPLOSION_NORMAL' created a fatal error when loading particles! Your MC version isn't supported!
+2024-07-15 00:06:18 [INFO]: Database COOLDOWN:world configured and loaded!
+2024-07-15 00:06:18 [INFO]: Database PLAYERS:Players configured and loaded!
+2024-07-15 00:06:18 [INFO]: Database QUEUE:Queue configured and loaded!
+2024-07-15 00:06:18 [INFO]: Database CHUNK_DATA:ChunkData configured and loaded!
+2024-07-15 00:06:18 [INFO]: Database COOLDOWN:world_nether configured and loaded!
+2024-07-15 00:06:18 [INFO]: Database COOLDOWN:world_the_end configured and loaded!
+2024-07-15 00:06:18 [INFO]: Database COOLDOWN:lobbytest configured and loaded!
+2024-07-15 00:06:18 [INFO]: Attempting to queue up some more safe locations...
+2024-07-15 00:06:19 [WARNING]: Seems like the world `lobbytest` does not have a `WorldType` declared. Please add/fix this in the config.yml file! This world will be treated as an overworld! If this world is a nether world, configure it to NETHER (example: `- lobbytest: NETHER`
+2024-07-15 00:07:13 [INFO]: Max attempts to create a Queue reached for default_lobbytest (amount: 0)
+2024-07-15 00:07:13 [INFO]: Queueing paused, max queue limit reached!
+2024-07-15 00:12:44 [INFO]: Disabling BetterRTP v3.6.13
