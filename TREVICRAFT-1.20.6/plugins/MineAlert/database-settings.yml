@@ -1,8 +1,0 @@
-host: localhost
-port: 3306
-database: minealert
-user: minealert
-password: minealert
-driver: MYSQL
-timeout: 5000
-maxpool: 10
