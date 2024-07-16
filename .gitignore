@@ -3,3 +3,5 @@
 **/crash-reports/
 **/.console_history
 **/libraries/
+**/.paper-remapped
+**/orebfuscator-cache

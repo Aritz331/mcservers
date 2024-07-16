@@ -32,7 +32,7 @@ general:
     # The full command used to start your server.
     # Like 'java -jar server.jar' for example, or './server.exe'.
     # ./ represents the working directory (where the AutoPlug was started from).
-    start-command: ./run.cmd
+    start-command: java -Xms4G -Xmx4G -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true --add-modules=jdk.incubator.vector -jar server.jar --nogui
     # Enter your Server-Key here. You get it by registering yourself and your server on https://autoplug.one.
     # The Server-Key enables remote access from your account.
     # No matter what, keep this key private to ensure your servers security!

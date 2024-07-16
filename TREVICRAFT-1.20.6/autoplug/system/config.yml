@@ -9,8 +9,8 @@
 # #######################################################################################################################
 config: 
   is-autostart-registered: false
-  timestamp-last-updater-tasks: 15/07/2024 00:03:49
-  timestamp-last-backup-task: 14/07/2024 21:24:14
+  timestamp-last-updater-tasks: 16/07/2024 16:45:32
+  timestamp-last-backup-task: 16/07/2024 16:45:26
   # If localhost is used below, remember to set this to false too!
   autoplug-web-ssl: true
   # Set to localhost to test on the local server.
